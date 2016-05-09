@@ -1,6 +1,7 @@
 title: 'Jekyll Bootstrap Theme'
 
 markdown: kramdown
+offline: true
 
 sass:
   sass_dir: css

@@ -3,11 +3,31 @@
 
 @import 'bootstrap';
 
+$theme-blue: #00C0FF;
+$theme-yellow: #FFCD00;
 body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
 
-.map {
-  height: 500px;
+.key-line {
+  border-radius: 10px;
+  box-shadow: 0 10px 0 $theme-yellow;
+}
+
+.maintenance {
+  text-align: center;
+
+  i {
+    font-size: 125px;
+    color: $theme-yellow;
+    line-height: 190px;
+  }
+
+  .key-line {
+    height: 10px;
+    width: 255px;
+    box-shadow: 0 10px 0 $theme-blue;
+    margin: 0 auto 35px auto;
+  }
 }

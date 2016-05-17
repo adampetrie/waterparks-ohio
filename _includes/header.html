@@ -22,7 +22,7 @@
             {% for waterpark in site.waterparks %}
               {% unless waterpark.hide_from_nav %}
                 <li>
-                  <a href='/waterparks/{{ waterpark.title | slugify }}'>
+                  <a href='/waterparks/{{ waterpark.slug }}'>
                     {{ waterpark.title }}
                   </a>
                 </li>

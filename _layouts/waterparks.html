@@ -17,13 +17,13 @@
 
       {% include footer.html %}
 
-      {% for waterpark in site.waterparks %}
-        <script type="text/javascript"> 
+      <script type="text/javascript">
           var waterparks = [
-              { address: "{{ waterpark.address }}" }
+            {% for waterpark in site.waterparks %}
+              { address: "{{ waterpark.address }}" },
+            {% endfor %}
           ];
-        </script>
-      {% endfor %}
+      </script>
 
       <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
       <script src="{{ site.path }}/js/gmap3.min.js"></script>

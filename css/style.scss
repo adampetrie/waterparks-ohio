@@ -7,6 +7,7 @@ $theme-yellow: #FFCD00;
 
 @import 'modules/weather';
 @import 'modules/map';
+@import 'modules/photos';
 
 body {
   background-color: white;
@@ -170,10 +171,6 @@ h6 {
 }
 
 .waterpark {
-  margin-bottom: 20px;
-}
-
-.photos .thumb {
   margin-bottom: 20px;
 }
 

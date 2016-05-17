@@ -1,0 +1,19 @@
+.photos .thumb {
+  margin-bottom: 20px;
+}
+
+.no-photos {
+  position: relative;
+
+  > div {
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+  }
+
+  i {
+    color: #F3F3F3;
+    font-size: 200px;
+  }
+}

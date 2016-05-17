@@ -5,11 +5,20 @@
 </h3>
 
 <div class="row">
-{% for image in site.static_files %}
-  {% if image.path contains 'images/sherkston-shores' %}
-    <a class="col-xs-12 col-sm-4 col-md-4 thumb" data-lightbox="gallery" href="{{ image.path }}">
-      <img class="img-responsive img-thumbnail" src="{{ site.baseurl }}{{ image.path }}" alt="image"/>
-    </a>
-  {% endif %}
-{% endfor %}
+{% if include.path %}
+  {% for image in site.static_files %}
+    {% if image.path contains {{include.path}} %}
+      <a class="col-xs-12 col-sm-4 col-md-4 thumb" data-lightbox="gallery" href="{{ image.path }}">
+        <img class="img-responsive img-thumbnail" src="{{ site.baseurl }}{{ image.path }}" alt="image"/>
+      </a>
+    {% endif %}
+  {% endfor %}
+{% else %}
+  <div class="no-photos text-center">
+    <div>
+      <p>No Photos Available</p>
+    </div>
+    <i class="fa fa-picture-o" aria-hidden="true"></i>
+  </div>
+{% endif %}
 </div>

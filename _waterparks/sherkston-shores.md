@@ -1,5 +1,4 @@
 ---
-layout: waterpark
 title: Sherkston Shores
 address: 490 Empire Rd, Sherkston, Ontario, L0S 1R0
 ---

@@ -11,5 +11,13 @@ collections:
   waterparks:
     output: true
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "waterparks"
+    values:
+      layout: "waterpark"
+
 exclude:
 - README.md

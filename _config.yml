@@ -12,8 +12,12 @@ defaults:
     scope:
       path: ""
     values:
-      disclaimer: "At Water Parks in Ontario we strive to keep our listings as up to date as possible but nobody's perfect. In the event of a disagreement between a water park and this website, the water park shall take precedence."
-      footer_disclaimer: "In the event of a disagreement between a water park and this website, the water park shall take precedence."
+      disclaimer: >
+        At Water Parks in Ontario we strive to keep our listings as up to date as possible but nobody's perfect.
+        In the event of a disagreement between a water park and this website, the water park shall take precedence.
+      footer_disclaimer: >
+        Water Parks in Ontario is not directly affiliated with any of the water parks listed on this website.
+        In the event of a disagreement between a water park and this website, the water park shall take precedence.
   -
     scope:
       path: ""

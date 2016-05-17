@@ -1,0 +1,64 @@
+{% include html-head.html %}
+  <body>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      {% include header.html %}
+      <div class="container">
+        <div class="col-md-5">
+          <i class="wi wi-day-sunny"></i>
+          <div class="key-line"></div>
+          <h2>{{ page.jumbotron-heading }}</h2>
+          <p>{{ page.jumbotron-sub-heading }}</p>
+          <a href="/waterparks" class="btn btn-info">Find a Water Park &raquo;</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="callouts-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 banner-margin-bottom">
+            {% include ad-block.html ad-slot="4931323640" %}
+          </div>
+        </div>
+        <div class="row">
+          {% for callout in page.callouts %}
+              <div class="{{ 12 | divided_by: page.callouts.size | prepend: "col-md-" }} callout">
+                <h2>
+                    <span class="icon {{ callout.icon }}"></span> {{ callout.name }}
+                    <div class="key-line"></div>
+                </h2>
+                <p>{{ callout.description}}</p>
+              </div>
+          {% endfor %}
+        </div>
+        <div class="row">
+          <div class="col-md-12 banner-margin-top">
+            {% include ad-block.html ad-slot="6408056842" %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="container">
+        <div class="row heading">
+          <h1>
+            {{page.heading}}
+            <div class="key-line"></div>
+          </h1>
+        </div>
+        <div class="row content">
+          <div class="col-md-12">
+            {{ page.content | markdownify }}
+          </div>
+        </div>
+        <div class="row cta">
+          <a href="/waterparks" class="btn btn-info btn-lg">Find a Water Park &raquo;</a>
+        </div>
+      </div> <!-- /container -->
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

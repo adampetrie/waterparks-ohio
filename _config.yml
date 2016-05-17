@@ -1,12 +1,15 @@
-title: 'Jekyll Bootstrap Theme'
-
+title: 'Water Parks in Ontario'
 markdown: kramdown
-offline: true
+offline: false
+permalink: pretty
 
 sass:
   sass_dir: css
   style:    expanded
 
+collections:
+  waterparks:
+    output: true
 
 exclude:
 - README.md

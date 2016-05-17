@@ -1,0 +1,32 @@
+.weather-wrapper {
+  position: relative;
+  margin: 20px 0;
+
+  p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  i {
+    color: #B3ECFF;
+    font-size: 125px;
+    position: absolute;
+    right: 0;
+    top: -20px;
+    z-index: -1;
+  }
+}
+
+.forecast {
+  
+  li {
+    text-align: center;
+  }
+
+  i {
+    color: $theme-blue;
+    font-size: 30px;
+    display: block;
+    margin: 10px;
+  }
+}

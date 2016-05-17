@@ -1,0 +1,15 @@
+<h3>
+  <span class="icon fa fa-camera-retro"></span>
+  Photos
+  <div class="key-line"></div>  
+</h3>
+
+<div class="row">
+{% for image in site.static_files %}
+  {% if image.path contains 'images/sherkston-shores' %}
+    <a class="col-xs-12 col-sm-4 col-md-4 thumb" data-lightbox="gallery" href="{{ image.path }}">
+      <img class="img-responsive img-thumbnail" src="{{ site.baseurl }}{{ image.path }}" alt="image"/>
+    </a>
+  {% endif %}
+{% endfor %}
+</div>

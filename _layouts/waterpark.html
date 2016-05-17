@@ -1,0 +1,72 @@
+{% include html-head.html %}
+  <body>
+
+    {% include header.html %}
+
+    <div class="container waterpark">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>
+            <span class="icon fa fa-life-saver"></span>
+            {{ page.title }}
+            <div class="key-line"></div>
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          {% include ad-block.html ad-slot="2176333645" %}
+        </div>
+        <div class="col-md-8 info">
+          {{ content | markdownify }}
+        </div>
+      </div>
+      <div class="row banner-margin-top banner-margin-bottom">
+        {% include ad-block.html ad-slot="6862055242" %}
+      </div>
+      <div class="row">
+        <div class="col-md-6 weather" data-location="{{ page.address }}">
+          {% include weather.html %}
+        </div>
+        <div class="col-md-6 photos">
+          {% include photos.html %}
+        </div>
+      </div>
+    </div>
+    
+    <div class="map-wrapper">
+      <div class="container getting-there">
+        <div class="row">
+          <div class="col-md-12">
+            <h3>
+              <span class="icon fa fa-car"></span>
+              Getting There
+              <div class="key-line"></div>
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="loading" >
+            <span class="fa fa-spinner fa-spin"></span>
+            <p>Loading map and directions to {{ page.title }}.<br/>Please Wait...</p>
+          </div>
+          <div class="col-md-6">
+            <div class="map" data-location="{{ page.address }}"></div>
+          </div>
+          <div class="col-md-6">
+            <div class="directions"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
+    <script src="//cdn.jsdelivr.net/lodash/4.6.1/lodash.min.js"></script>
+    
+    <script src="{{ site.path }}/js/gmap3.min.js"></script>
+    <script src="{{ site.path }}/js/waterpark.js"></script>
+  </body>
+</html>

@@ -14,7 +14,7 @@
 <script type="text/template" id="weather-template">
   <div class="weather-wrapper">
     <p>Currently <%= temp %>&deg;<%= units.temp %> and <%= currently %> in <%= city %>, <%= region %></p>
-    <i class="wi wi-yahoo-<%= code %>"></i>
+    <i class="wi wi-yahoo-<%= code %>" aria-hidden="true"></i>
   </div>
   <ul class="forecast list-inline">
   <% _.each(forecast, function(forecast){ %>

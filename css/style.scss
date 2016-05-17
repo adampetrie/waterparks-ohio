@@ -9,13 +9,13 @@ $theme-yellow: #FFCD00;
 @import 'modules/map';
 
 body {
-  font-family: 'Lato', 'Arial';
-  padding-top: 50px;
-  padding-bottom: 20px;
-  color: #303030;
-  font-size: 16px;
   background-color: white;
+  color: #303030;
+  font-family: 'Lato', 'Arial';
+  font-size: 16px;
   font-weight: 300;
+  padding-bottom: 20px;
+  padding-top: 50px;
 }
 
 h1,
@@ -23,86 +23,75 @@ h2,
 h3,
 h4,
 h5,
-h6
-{
+h6 {
   display: inline-block;
-  font-family: "Bubblegum Sans";
+  font-family: 'Bubblegum Sans';
 
-  span.icon {
+  .icon {
     color: $theme-blue;
     margin-right: 10px;
   }
 
   .key-line {
-    width: 100%;
     height: 5px;
     margin: 5px auto 20px;
+    width: 100%;
   }
-}
-
-.navbar-inverse .navbar-collapse {
-  border-color: #05ACE2;
 }
 
 .navbar-inverse {
   background-color: #40D0FF;
   border-color: #05ACE2;
+}
 
-  div.navbar-brand{
-    i {
-      padding-right: 5px;
-      color: $theme-yellow;
-    }
-
-    a {
-      font-family: "Bubblegum Sans";
-      color: white;
-
-      &:hover {
-        color: #05ACE2;
-        text-decoration: none;
-      }
-    }
+.navbar-brand {
+  i {
+    color: $theme-yellow;
+    padding-right: 5px;
   }
 
-  .navbar-nav > li > a {
+  a {
     color: white;
-  }
+    font-family: 'Bubblegum Sans';
 
-  .navbar-nav > .open > a:focus {
-    background-color: #05ACE2;
+    &:hover {
+      color: #05ACE2;
+      text-decoration: none;
+    }
   }
+}
+
+.navbar-nav > li > a {
+  color: white;
 }
 
 .jumbotron {
   background: url('../images/jumbotron.jpg') no-repeat center center scroll;
   background-size: cover;
   color: white;
-  padding: 0px;
   height: 500px;
+  margin-bottom: 0;
+  padding: 0;
   text-align: center;
-  margin-bottom: 0px;
 
-  .container {
-    .col-md-5 {
-      background-color: rgba(0, 0, 0, 0.7);
-      height: 500px;
+  .col-md-5 {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 500px;
 
-      i {
-        font-size: 125px;
-        color: $theme-yellow;
-        line-height: 190px;
-      }
-
-      .key-line {
-        height: 10px;
-        width: 255px;
-        box-shadow: 0 10px 0 $theme-blue;
-        margin: 0 auto 10px auto;
-      }
-
-      p { font-weight: 300; }
+    i {
+      color: $theme-yellow;
+      font-size: 125px;
+      line-height: 190px;
     }
+
+    .key-line {
+      box-shadow: 0 10px 0 $theme-blue;
+      height: 10px;
+      margin: 0 auto 10px;
+      width: 255px;
+    }
+
+    p { font-weight: 300; }
   }
 }
 
@@ -110,31 +99,32 @@ h6
   border-bottom: 5px solid #DDDDDD;
   border-top: 5px solid #DDDDDD;
   padding: 20px 0;
+  text-align: center;
 
-  .callout{
-    text-align: center;
+  h2 {
+    font-size: 24px;
+    margin-top: 0;
 
-    h2 {
-      font-size: 24px;
-      margin-top: 0;
-
-      .key-line {
-        height: 5px;
-        width: 200px;
-      }
+    .key-line {
+      height: 5px;
+      width: 200px;
     }
+  }
 
-    span.icon {
-      display: block;
-      margin-bottom: 10px;
-      font-size: 70px;
-      line-height: 100px;
-      height: 90px;
-    }
+  .icon {
+    display: block;
+    font-size: 70px;
+    height: 90px;
+    line-height: 100px;
+    margin-bottom: 10px;
+  }
 
-    span.icon.wi {
-      line-height: 115px;
-    }
+  .icon.wi {
+    line-height: 115px;
+  }
+
+  p {
+    line-height: 25px;
   }
 }
 
@@ -152,8 +142,8 @@ h6
 }
 
 .loading {
-  text-align: center;
   padding-top: 100px;
+  text-align: center;
 
   span {
     font-size: 40px;
@@ -169,11 +159,11 @@ h6
   padding-bottom: 20px;
 
   .heading {
-    text-align: center;
     color: #00C0FF;
+    text-align: center;
   }
 
-  .cta { 
+  .cta {
     margin-top: 10px;
     text-align: center;
   }
@@ -183,7 +173,7 @@ h6
   margin-bottom: 20px;
 }
 
-.photos a.thumb {
+.photos .thumb {
   margin-bottom: 20px;
 }
 
@@ -191,27 +181,31 @@ h6
   text-align: center;
 
   i {
-    font-size: 125px;
     color: $theme-yellow;
+    font-size: 125px;
     line-height: 190px;
   }
 
   .key-line {
-    height: 10px;
-    width: 255px;
     box-shadow: 0 10px 0 $theme-blue;
-    margin: 0 auto 35px auto;
+    height: 10px;
+    margin: 0 auto 35px;
+    width: 255px;
   }
 }
 
 .ad-block {
   background-color: #CCCCCC;
-  width: 100%;
   height: 100%;
-  min-height: 100%;
-  text-align: center;
   min-height: 90px;
   padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.disclaimer {
+  font-size: 12px;
+  font-style: italic;
 }
 
 footer {

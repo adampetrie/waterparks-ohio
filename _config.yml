@@ -1,11 +1,7 @@
+# Site Settings...
 title: 'Water Parks in Ontario'
-markdown: kramdown
-offline: false
-permalink: pretty
 
-sass:
-  sass_dir: css
-  style:    expanded
+offline: false
 
 collections:
   waterparks:
@@ -24,6 +20,15 @@ defaults:
       type: "waterparks"
     values:
       layout: "waterpark"
+
+# Build Settings...
+permalink: pretty
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style:    expanded
 
 exclude:
 - README.md

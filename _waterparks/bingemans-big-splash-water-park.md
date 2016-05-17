@@ -5,21 +5,21 @@ address: 425 Bingemans Centre Drive Kitchener, ON N2B 3X7
 ---
 Located in Kitchener, Bingeman’s Big Splash offers fun and excitement for all ages. Big Splash features water slides, heated wave pool, Spray ‘N’ Play (water park for kids), the FunworX 3-level play structure, outdoor mini golf, Hole in Fun glow-in-the-dark mini golf, and Rocks & Ropes Course.
 
-####Hours of Operation 
+#### Hours of Operation
 Saturdays and Sundays in June from 10am-7pm  
 Everyday starting July 1st - September 5th from 10am-7pm
 
-####Location
+#### Location
 425 Bingemans Centre Drive  
 Kitchener, ON  
 N2B 3X7
 
-####Contact
+#### Contact
 Tel: (519) 744-1555  
 Toll Free: 1-800-667-0833  
-[www.http://bingemans.com/bigsplash](www.http://bingemans.com/bigsplash/)
+[www.bingemans.com/bigsplash](http://www.bingemans.com/bigsplash/)
 
-####Admissions
+#### Admissions
 - 48″ Tall and Over: 	$27.95
 - Under 48″ Tall: 	$19.95
 - Under 2 Years Old: 	Free
@@ -34,11 +34,11 @@ Includes one all day unlimited use of the heated wave pool, Spray ‘N’ Play (
 Over 48″
 Includes everything above PLUS The Pipe slides, The Cyclone, Torpedo Bay, Boomerango and Full Throttle.
 
-###Additional Activities
+#### Additional Activities
 FunworX 3-level play structure, outdoor mini golf, Hole in Fun glow-in-the-dark mini golf, and Rocks & Ropes Course  
 *included in day package
 
 Camping, paintball, beach volleyball, canoeing the Grand River, Speedway, indoor play land, Scream Parks haunted house  
 *additional fees apply
 
-For more information please visit [Bingemans website] (www.bingemans.com/bigsplash)
+For more information please visit [Bingemans website](www.bingemans.com/bigsplash)

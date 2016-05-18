@@ -1,6 +1,8 @@
 ---
 title: Wild Waterworks
 address: 585 Van Wagners Beach Road Hamilton, Ontario
+image_path: images/wild-water-works
+image_source: Images courtesy of Google.
 ---
 Located in Confederation Park, just off Centennial Parkway in Hamilton, Wild Waterworks water park offers a perfect place to spend a summer day.  Wild Waterworks features:
 - One of Canada’s largest outdoor wave pools  

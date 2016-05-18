@@ -11,6 +11,7 @@
             {{ page.title }}
             <div class="key-line"></div>
           </h1>
+          <p>Click on a map marker to be taken to that water park's listing</p>
           <div id="big-map" class="big-map map"></div>
         </div>
       </div>
@@ -21,7 +22,7 @@
     <script type="text/javascript">
         var waterparks = [
           {% for waterpark in site.waterparks %}
-            { address: "{{ waterpark.address }}" },
+            { address: "{{ waterpark.address }}", data: { url: "{{waterpark.url}}" }},
           {% endfor %}
         ];
     </script>

@@ -1,6 +1,8 @@
 ---
 title: Waves Indoor Water Park
 address: 8444 Lundy’s Lane Niagara Falls L2H 1H4
+image_path: images/waves-indoor
+imae_source: Images courtesy of http://www.americananiagara.com/.
 ---
 Located in the Americana Resort in Niagara Falls, Waves is a 25,000 square foot indoor water park with a retractable roof for year round fun! Waves Indoor Water Park comes complete with a beach entry wave pool, tube and body slides (up to 3 stories high!), kiddy pool interactive play structure, whirlpools, lounge areas and food & bar services.
 

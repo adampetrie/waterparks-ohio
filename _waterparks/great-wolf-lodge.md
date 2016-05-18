@@ -19,12 +19,12 @@ Rates starting at $219.99 for accommodation and water park passes for a family o
 #### Other Activities
 Forest Friends show  
 Story Time  
-Jammie Jamboree dance party 
+Jammie Jamboree dance party  
 MagiQuest*  
 Northern Lights Arcade*  
 Bowling Alley*  
 Wacky Wildnerness Mini Golf*  
 Great Wolf Stuffing Station*  
-*additional chargers 
+*additional charges apply  
 
 For more information visit Great Wold Lodge’s website at [www.greatwolf.com/niagara/waterpark](www.greatwolf.com/niagara/waterpark)

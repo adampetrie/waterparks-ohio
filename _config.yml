@@ -4,7 +4,7 @@ title: 'Water Parks in Ontario'
 offline: false
 
 collections:
-  waterparks:
+  water-parks:
     output: true
 
 defaults:
@@ -21,7 +21,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "waterparks"
+      type: "water-parks"
     values:
       layout: "waterpark"
 

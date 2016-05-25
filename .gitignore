@@ -1,4 +1,7 @@
 _site
+bower_components
+node_modules
+public
 .sass-cache
 .jekyll-metadata
 s3_website.yml

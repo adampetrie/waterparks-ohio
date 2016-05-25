@@ -1,9 +1,12 @@
----
----
-@import 'bootstrap';
+$wi-path: "../fonts/weather-icons";
+$fa-font-path: "../fonts/font-awesome";
 
 $theme-blue: #00C0FF;
 $theme-yellow: #FFCD00;
+
+@import 'bootstrap';
+@import 'weather-icons';
+@import 'font-awesome';
 
 @import 'modules/weather';
 @import 'modules/map';

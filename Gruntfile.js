@@ -3,6 +3,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-exec');
 
   grunt.initConfig({
@@ -20,6 +22,21 @@ module.exports = function(grunt) {
           'public/assets/css/style.css': '_assets/css/style.scss'
         },
       },
+    },
+
+    concat: {
+      javascript: {
+        src: [
+          'bower_components/jquery/dist/jquery.min.js',
+          'bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js',
+          'bower_components/gmap3/dist/gmap3.min.js',
+          'bower_components/lightbox2/dist/js/lightbox.min.js',
+          'bower_components/lodash/dist/lodash.min.js',
+          'bower_components/simpleWeather/jquery.simpleWeather.min.js',
+          '_assets/js/*.js'
+        ],
+        dest: 'public/assets/js/main.min.js'
+      }
     },
 
     copy: {
@@ -71,6 +88,11 @@ module.exports = function(grunt) {
       }
     },
 
+    watch: {
+      files: ['_assets/js/*.js'],
+      tasks: ['concat'],
+    },
+
     exec: {
       serve: {
         cmd: 'jekyll serve --watch'
@@ -82,8 +104,8 @@ module.exports = function(grunt) {
   });
 
   // Default task(s).
-  grunt.registerTask('default', ['sass:dev', 'copy', 'uglify']);
-  grunt.registerTask('serve', ['default', 'exec:serve']);
-  grunt.registerTask('deploy', ['default', 'exec:deploy']);
+  grunt.registerTask('default', ['sass:dev', 'copy']);
+  grunt.registerTask('serve', ['default', 'concat', 'exec:serve']);
+  grunt.registerTask('deploy', ['default', 'uglify', 'exec:deploy']);
 
 };

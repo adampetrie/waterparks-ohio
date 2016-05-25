@@ -1,0 +1,22 @@
+{
+  "name": "waterparksinontario",
+  "homepage": "https://github.com/adampetrie/waterparks",
+  "authors": [
+    "Adam Petrie"
+  ],
+  "description": "Just like the name says...",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "gmap3": "6.1.0",
+    "lightbox2": "^2.8.2",
+    "bootstrap-sass": "^3.3.6",
+    "weather-icons": "^2.0.10",
+    "simpleWeather": "^3.1.0",
+    "lodash": "^4.13.1"
+  }
+}

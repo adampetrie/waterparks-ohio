@@ -3,6 +3,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-exec');
 
   grunt.initConfig({
     sass: {
@@ -67,9 +68,20 @@ module.exports = function(grunt) {
           dest: 'public/assets/images/'
         }]
       }
+    },
+    exec: {
+      serve: {
+        cmd: 'jekyll serve --watch'
+      },
+      deploy: {
+        cmd: 'JEKYLL_ENV=production jekyll build && s3_website push'
+      }
     }
   });
 
   // Default task(s).
   grunt.registerTask('default', ['sass:dev', 'copy', 'concat']);
+  grunt.registerTask('serve', ['default', 'exec:serve']);
+  grunt.registerTask('deploy', ['default', 'exec:deploy']);
+
 };

@@ -7,24 +7,24 @@ Cedar Park Resort is a family campground and water park just north of the town o
 
 Cedar Park Resort facilities include water slides, splash pad, pool, aqua playgrounds, mini-golf, tennis court, park playground and 30 acres of parkland.
 
-###Hours of Operation
+### Hours of Operation
 
 Cedar Park Resort is open from early June through to Labour Day for day use.   
 The trailer park is open from May 1 to October 1 for camping.  
 Visit [Cedar Park Resort's Hours](http://www.cedarparkresort.ca/hours.php) for complete information.  
 
-###Location
+### Location
 
 6296 Cedar Park Road   
 Bowmanville, Ontario   
 Canada L1C 3K2   
 
-###Contact
+### Contact
 
 905-263-8109   
 [www.cedarparkresort.ca](http://www.cedarparkresort.ca/)  
 
-###Admission Prices
+### Admission Prices
 
 2016 General Admission  
 Adults: $12  
@@ -37,11 +37,12 @@ For use of the large water slides and the miniature golf additional charges appl
 Large Water Slides: adults and children: $7.00    
 Mini-golf: adults and children: $5/round
 
-###Other Activities
+### Other Activities
 
-RV camping available*  
-Miniature golf*  
-Tennis courts*  
+- RV camping available*
+- Miniature golf*
+- Tennis courts*
+ 
 *Additional fees apply.  
 
 For more information visit Cedar Park Resort’s website: [www.cedarparkresort.ca](http://www.cedarparkresort.ca/waterpark.php)

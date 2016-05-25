@@ -6,6 +6,7 @@ address: 303 York St, Kingston,ON, K7K 1R8
 Kingston's favourite waterpark offers a 10-metre water slide, a lazy river, toddler pool, family and accessible change rooms, shaded areas and zero-beach entry.
 
 Facility Features
+
 - 25 metre lane pool  
 - Leisure pool  
 - Diving board  
@@ -14,18 +15,18 @@ Facility Features
 - Water slide  
 - Lazy River  
 
-###Hours of Operation
+### Hours of Operation
 Closed for the season
 
-###Location
+### Location
 303 York St  
 Kingston, ON  
 K7K 1R8  
 
-###Contact
+### Contact
 [website](https://www.cityofkingston.ca/residents/recreation/facilities/aquatic-facilities/outdoor-aquatic-centre)
 
-###Admission 
+### Admission 
 Day Passes: $3.45  
 12 visit: $37.95  
 Season's pass: $114  

@@ -11,6 +11,27 @@
               click: function(marker, event, context) {
                 window.location.href = context.data.url;
               },
+              mouseover: function(marker, event, context){
+                var map = $(this).gmap3("get"),
+                    infowindow = $(this).gmap3({get:{name:"infowindow"}});
+                if (infowindow){
+                  infowindow.open(map, marker);
+                  infowindow.setContent(context.data.name);
+                } else {
+                  $(this).gmap3({
+                    infowindow:{
+                      anchor:marker,
+                      options:{content: context.data.name}
+                    }
+                  });
+                }
+              },
+              mouseout: function(){
+                var infowindow = $(this).gmap3({get:{name:"infowindow"}});
+                if (infowindow){
+                  infowindow.close();
+                }
+              }
             },
         },
         autofit:{},

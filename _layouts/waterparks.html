@@ -20,7 +20,15 @@
     <script type="text/javascript">
       var waterparks = [
         {% for waterpark in site.water-parks %}
-          { address: "{{ waterpark.address }}", data: { url: "{{waterpark.url}}" }},
+          {% if (waterpark.address) %}
+            {
+              "address": "{{ waterpark.address }}",
+              "data": {
+                "url": "{{waterpark.url}}",
+                "name": "{{waterpark.title}}"
+              }
+            },
+          {% endif %}
         {% endfor %}
       ];
     </script>

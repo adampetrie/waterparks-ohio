@@ -35,7 +35,15 @@ sass:
   style:    expanded
 
 exclude:
-- README.md
+  - README.md
+  - package.json
+  - Gruntfile.js
+  - Gemfile
+  - Gemfile.lock
+  - bower.json
+  - s3_website.yml
+  - node_modules
+  - bower_components
 
 gems:
   - jekyll-sitemap

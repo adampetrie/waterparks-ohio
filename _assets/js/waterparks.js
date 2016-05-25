@@ -1,7 +1,7 @@
 (function ($) {
     'use strict';
 
-  var $big_map = $('#big-map');
+  var $big_map = $('.big-map');
 
   if ($big_map.length) {
     $big_map.gmap3({

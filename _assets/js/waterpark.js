@@ -16,7 +16,7 @@
     }
   });
 
-  $(".map").gmap3({ 
+  $(".directions-map").gmap3({
     getgeoloc:{
       callback : function(latLng){
         if (latLng){

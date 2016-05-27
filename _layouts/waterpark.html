@@ -55,7 +55,7 @@
             <p>Loading map and directions to {{ page.title }}.<br/>Please Wait...</p>
           </div>
           <div class="col-md-6">
-            <div class="directions-map map" data-location="{{ page.address }}"></div>
+            <div class="directions-map map"></div>
           </div>
           <div class="col-md-6">
             <div class="directions"></div>
@@ -65,5 +65,20 @@
     </div>
 
     {% include footer.html %}
+
+    <script type="text/javascript">
+
+      new waterparks.Views.weatherView({
+        location: '{{ page.address }}',
+        template: '#weather-template',
+        el: '.weather-output'
+      }).render();
+
+      new waterparks.Views.DirectionsMapView({
+        destination: '{{ page.address }}',
+        el: '.directions-map'
+      }).render();
+    </script>
+
   </body>
 </html>

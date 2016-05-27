@@ -31,9 +31,11 @@ module.exports = function(grunt) {
           'bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js',
           'bower_components/gmap3/dist/gmap3.min.js',
           'bower_components/lightbox2/dist/js/lightbox.min.js',
-          'bower_components/lodash/dist/lodash.min.js',
           'bower_components/simpleWeather/jquery.simpleWeather.min.js',
-          '_assets/js/*.js'
+          'bower_components/underscore/underscore-min.js',
+          'bower_components/backbone/backbone.js',
+          '_assets/js/main.js',
+          '_assets/js/*/*.js'
         ],
         dest: 'public/assets/js/main.min.js'
       }
@@ -80,16 +82,18 @@ module.exports = function(grunt) {
             'bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js',
             'bower_components/gmap3/dist/gmap3.min.js',
             'bower_components/lightbox2/dist/js/lightbox.min.js',
-            'bower_components/lodash/dist/lodash.min.js',
             'bower_components/simpleWeather/jquery.simpleWeather.min.js',
-            '_assets/js/*.js'
+            'bower_components/underscore/underscore-min.js',
+            'bower_components/backbone/backbone.js',
+            '_assets/js/main.js',
+            '_assets/js/*/*.js'
           ]
         }
       }
     },
 
     watch: {
-      files: ['_assets/js/*.js'],
+      files: ['_assets/js/**/*.js'],
       tasks: ['concat'],
     },
 

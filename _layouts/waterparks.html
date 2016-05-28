@@ -22,9 +22,10 @@
     <script type="text/javascript">
       var waterparkData = [
         {% for waterpark in site.water-parks %}
-          {% if (waterpark.address) %}
+          {% if (waterpark.lat && waterpark.lng) %}
             {
-              "address": "{{ waterpark.address }}",
+              "lat": {{ waterpark.lat }},
+              "lng": {{ waterpark.lng }},
               "url": "{{waterpark.url}}",
               "name": "{{waterpark.title}}"
             },

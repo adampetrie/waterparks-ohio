@@ -1,6 +1,8 @@
 ---
 title: Roaring Rivers Water Park at Logos Land Resort 
-address: 15906 Highway 17 Cobden, Ontario K0J 1K0
+
+lat: 45.5994788
+lng: -76.84414919999999
 ---
 
 Logos Land Resort is a family friendly destination in the Ottawa Valley.

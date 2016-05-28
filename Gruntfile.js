@@ -29,7 +29,6 @@ module.exports = function(grunt) {
         src: [
           'bower_components/jquery/dist/jquery.min.js',
           'bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js',
-          'bower_components/gmap3/dist/gmap3.min.js',
           'bower_components/lightbox2/dist/js/lightbox.min.js',
           'bower_components/simpleWeather/jquery.simpleWeather.min.js',
           'bower_components/underscore/underscore-min.js',
@@ -80,7 +79,6 @@ module.exports = function(grunt) {
           'public/assets/js/main.min.js': [
             'bower_components/jquery/dist/jquery.min.js',
             'bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js',
-            'bower_components/gmap3/dist/gmap3.min.js',
             'bower_components/lightbox2/dist/js/lightbox.min.js',
             'bower_components/simpleWeather/jquery.simpleWeather.min.js',
             'bower_components/underscore/underscore-min.js',

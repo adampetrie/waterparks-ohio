@@ -1,6 +1,8 @@
 ---
 title: Fallsview Indoor Water Park
-address: Falls Avenue Niagara Falls, ON L2E 6W7
+
+lat: 43.0964234
+lng: -79.0771834
 image_path: images/fallsview
 image_source: Images courtesy of www.fallsviewwaterpark.com.
 ---

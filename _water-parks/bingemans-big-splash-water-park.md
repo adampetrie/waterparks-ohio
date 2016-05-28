@@ -1,7 +1,9 @@
 ---
 title: Bingeman's Big Splash Water Park
 slug: bingemans-big-splash-water-park
-address: 425 Bingemans Centre Drive Kitchener, ON N2B 3X7
+
+lat: 43.4724291
+lng: -80.4504822
 image_path: images/bingemans
 image_source: Images courtesy of Google
 ---

@@ -1,6 +1,8 @@
 ---
 title: Cedar Park Resort
-address: 6296 Cedar Park Road Bowmanville, Ontario Canada L1C 3K2
+
+lat: 43.9038027
+lng: -78.6788217
 ---
 
 Cedar Park Resort is a family campground and water park just north of the town of Bowmanville.

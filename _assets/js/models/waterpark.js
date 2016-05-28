@@ -1,11 +1,12 @@
 waterparks.Models.WaterPark = Backbone.Model.extend({
 
-  mapMarkerJson: function() {
+  mapMarkerOptions: function() {
     return {
-      "address": this.get('address'),
-      "data": {
-        "url": this.get('url'),
-        "name": this.get('name')
+      lat: this.get('lat'),
+      lng: this.get('lng'),
+      data: {
+        url: this.get('url'),
+        name: this.get('name')
       }
     };
   }

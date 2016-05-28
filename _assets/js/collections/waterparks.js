@@ -3,12 +3,23 @@ waterparks.Collections.WaterParks = Backbone.Collection.extend({
     this.model = waterparks.Models.WaterPark;
   },
 
-  mapMarkerJson: function() {
-    var markerData = [];
+  mapMarkers: function(map) {
+    var markers = [];
     _.each(this.models, function(waterpark) {
-      markerData.push(waterpark.mapMarkerJson());
+
+      var marker = new google.maps.Marker({
+        map: map,
+        position: {
+          lat: waterpark.get('lat'),
+          lng: waterpark.get('lng')
+        },
+        name: waterpark.get('name'),
+        url: waterpark.get('url')
+      });
+
+      markers.push(marker);
     });
 
-    return markerData;
+    return markers;
   }
 });

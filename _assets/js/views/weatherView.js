@@ -2,7 +2,15 @@ waterparks.Views.weatherView = Backbone.View.extend({
 
   initialize: function(options) {
     this.template = _.template($(options.template).text());
-    this.location = options.location;
+    this.waterpark = options.waterpark
+    this.location = this.getLocation();
+  },
+
+  getLocation: function() {
+    var lat = this.waterpark.get('lat'),
+        lng = this.waterpark.get('lng');
+
+    return lat + ',' + lng;
   },
 
   outputWeather: function(weather) {

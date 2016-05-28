@@ -1,54 +1,65 @@
 waterparks.Views.DirectionsMapView = Backbone.View.extend({
 
   initialize: function(options) {
-    this.map = $(this.el).gmap3();
-    this.destination = options.destination;
+    this.destination = new google.maps.LatLng(
+      options.waterpark.get('lat'),
+      options.waterpark.get('lng')
+    );
+    this.directionsService = new google.maps.DirectionsService;
+    this.directionsDisplay = new google.maps.DirectionsRenderer;
   },
 
-  handleGeoLocation: function(latLng) {
-    if (latLng) {
-      this.userLatLng = latLng;
+  locateUser: function() {
+    var geoLocateCallback = _.bind(this.locateUserCallback, this);
+    navigator.geolocation.getCurrentPosition(geoLocateCallback);
+  },
+
+  locateUserCallback: function(position) {
+    if(position) {
+      this.userLocation = new google.maps.LatLng(
+        position.coords.latitude,
+        position.coords.longitude
+      );
       this.getRoute();
+    } else {
+      alert('Unable to determine your location. Directions cannot be provided.');
     }
   },
 
   getRoute: function() {
-    this.map.gmap3({
-      getroute: {
-        options: {
-          origin: this.userLatLng,
-          destination: this.destination,
-          travelMode: google.maps.DirectionsTravelMode.DRIVING
-        },
-        callback: _.bind(this.drawRoute, this)
-      }
-    });
+    var directionData = {
+      origin: this.userLocation,
+      destination: this.destination,
+      travelMode: google.maps.TravelMode.DRIVING
+    }
+
+    this.directionsService.route(
+      directionData,
+      _.bind(this.getRouteCallback, this)
+    );
   },
 
-  drawRoute: function(directions) {
-    $('.getting-there div.col-md-6').css('display', 'block');
-    $('.getting-there div.loading').css('display', 'none');
-
-    this.map.gmap3({
-      map:{
-        options:{
-          zoom: 13
-        }
-      },
-      directionsrenderer:{
-        container: $('.directions'),
-        options:{
-          directions:directions
-        } 
-      }
-    });
+  getRouteCallback: function(response, status) {
+    if (status === google.maps.DirectionsStatus.OK) {
+      this.directions = response;
+      this.render();
+    } else {
+      alert('Directions request failed due to ' + status);
+    }
   },
 
   render: function() {
-    this.map.gmap3({
-      getgeoloc: {
-        callback: _.bind(this.handleGeoLocation, this)
-      }
+    var mapNode = this.$el[0];
+    this.map = new google.maps.Map(mapNode, {
+      zoom: 7,
+      center: this.userLocation
     });
+
+    this.directionsDisplay.setMap(this.map);
+    this.directionsDisplay.setPanel($('.directions')[0]);
+    this.directionsDisplay.setDirections(this.directions);
+
+    $('.getting-there div.col-md-6').css('display', 'block');
+    $('.getting-there div.loading').css('display', 'none');
   }
 });

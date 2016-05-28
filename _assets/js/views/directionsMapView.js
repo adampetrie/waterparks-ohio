@@ -1,10 +1,7 @@
 waterparks.Views.DirectionsMapView = Backbone.View.extend({
 
   initialize: function(options) {
-    this.destination = new google.maps.LatLng(
-      options.waterpark.get('lat'),
-      options.waterpark.get('lng')
-    );
+    this.destination = options.waterpark.mapLatLng();
     this.directionsService = new google.maps.DirectionsService;
     this.directionsDisplay = new google.maps.DirectionsRenderer;
   },

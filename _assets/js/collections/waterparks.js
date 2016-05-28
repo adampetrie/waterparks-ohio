@@ -6,18 +6,7 @@ waterparks.Collections.WaterParks = Backbone.Collection.extend({
   mapMarkers: function(map) {
     var markers = [];
     _.each(this.models, function(waterpark) {
-
-      var marker = new google.maps.Marker({
-        map: map,
-        position: {
-          lat: waterpark.get('lat'),
-          lng: waterpark.get('lng')
-        },
-        name: waterpark.get('name'),
-        url: waterpark.get('url')
-      });
-
-      markers.push(marker);
+      markers.push(waterpark.mapMarker(map));
     });
 
     return markers;

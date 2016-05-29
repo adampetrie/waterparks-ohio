@@ -3,6 +3,7 @@ title: Roaring Rivers Water Park at Logos Land Resort
 
 lat: 45.5994788
 lng: -76.84414919999999
+placeId: ChIJMUgr2odl0UwRilMHQ9cJCjE
 ---
 
 Logos Land Resort is a family friendly destination in the Ottawa Valley.

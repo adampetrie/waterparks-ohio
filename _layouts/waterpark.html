@@ -17,23 +17,28 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4">
-          {% include ad-block.html ad-slot="2176333645" %}
-        </div>
-        <div class="col-md-8 info">
+        <div class="col-md-7 info">
           {{ content | markdownify }}
           <p class="disclaimer">{{ page.disclaimer }}</p>
         </div>
-      </div>
+        <div class="col-md-5">
+          <div>
+            {% include ad-block.html ad-slot="2176333645" %}
+          </div>
+          <div class="weather" data-location="{{ page.address }}">
+            {% include weather.html %}
+          </div>
+          <div class="photos">
+            {% include photos.html path=page.image_path source=page.image_source%}
+          </div>
+          </div>
+        </div>
       <div class="row banner-margin-top banner-margin-bottom">
         {% include ad-block.html ad-slot="6862055242" %}
       </div>
       <div class="row">
-        <div class="col-md-6 weather" data-location="{{ page.address }}">
-          {% include weather.html %}
-        </div>
-        <div class="col-md-6 photos">
-          {% include photos.html path=page.image_path source=page.image_source%}
+        <div class="col-md-12 reviews">
+          {% include reviews.html %}
         </div>
       </div>
     </div>
@@ -70,7 +75,19 @@
 
       var waterpark = new waterparks.Models.WaterPark({
         lat: {{ page.lat }},
-        lng: {{ page.lng }}
+        lng: {{ page.lng }},
+        placeId: "{{ page.place_id }}"
+      });
+
+      var reviews = new waterparks.Collections.Reviews({
+        waterpark: waterpark,
+        node: '.reviews-output'
+      });
+
+      new waterparks.Views.ReviewsView({
+        collection: reviews,
+        template: '#reviews-template',
+        el: '.reviews-output'
       });
 
       new waterparks.Views.weatherView({

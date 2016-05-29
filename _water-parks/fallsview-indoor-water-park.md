@@ -3,6 +3,8 @@ title: Fallsview Indoor Water Park
 
 lat: 43.0964234
 lng: -79.0771834
+place_id: ChIJQRRTPBlD04kR5i8gl94VB60
+
 image_path: images/fallsview
 image_source: Images courtesy of www.fallsviewwaterpark.com.
 ---

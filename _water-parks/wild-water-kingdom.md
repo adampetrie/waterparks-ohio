@@ -3,6 +3,7 @@ title: Wild Water Kingdom
 
 lat: 43.7403466
 lng: -79.64198379999999
+place_id: ChIJQZSPunk7K4gR5-LrnG5_tug
 ---
 ### The Waterpark will be CLOSED for the 2016 season for major renovations and expansion with exciting new rides and attractions
 

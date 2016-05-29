@@ -31,6 +31,7 @@ module.exports = function(grunt) {
           'bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js',
           'bower_components/lightbox2/dist/js/lightbox.min.js',
           'bower_components/simpleWeather/jquery.simpleWeather.min.js',
+          'bower_components/moment/min/moment.min.js',
           'bower_components/underscore/underscore-min.js',
           'bower_components/backbone/backbone.js',
           '_assets/js/main.js',

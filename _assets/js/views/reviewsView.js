@@ -6,11 +6,15 @@ waterparks.Views.ReviewsView = Backbone.View.extend({
   },
 
   render: function() {
-    $(this.el).html(
-      this.template({
-        reviews: this.collection.models
-      })
-    );
+    if(this.collection.isEmpty()) {
+      $('.reviews').css('display', 'none');
+    } else {
+      $(this.el).html(
+        this.template({
+          reviews: this.collection.models
+        })
+      );
+    }
   }
 
 });

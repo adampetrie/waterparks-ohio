@@ -26,7 +26,7 @@ waterparks.Collections.Reviews = Backbone.Collection.extend({
       var reviews = [];
 
       if(_.isUndefined(results.reviews)) {
-        console.log('NO REVIEWS FOUND');
+        this.reset([]);
         return;
       }
 

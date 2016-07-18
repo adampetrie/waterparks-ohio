@@ -20,13 +20,11 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Waterparks <span class="caret"></span></a>
           <ul class="dropdown-menu">
             {% for waterpark in site.water-parks %}
-              {% unless waterpark.hide_from_nav %}
-                <li>
-                  <a href='{{ waterpark.url }}'>
-                    {{ waterpark.title }}
-                  </a>
-                </li>
-              {% endunless %}
+              <li>
+                <a href='{{ waterpark.url }}'>
+                  {{ waterpark.title }}
+                </a>
+              </li>
             {% endfor %}
         </li>
       </ul>

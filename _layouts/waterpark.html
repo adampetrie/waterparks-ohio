@@ -73,33 +73,36 @@
 
     <script type="text/javascript">
 
-      var waterpark = new waterparks.Models.WaterPark({
-        lat: {{ page.lat }},
-        lng: {{ page.lng }},
-        placeId: "{{ page.place_id }}"
+      $(function() {
+        var waterpark = new waterparks.Models.WaterPark({
+          lat: {{ page.lat }},
+          lng: {{ page.lng }},
+          placeId: "{{ page.place_id }}"
+        });
+
+        var reviews = new waterparks.Collections.Reviews({
+          waterpark: waterpark,
+          node: '.reviews-output'
+        });
+
+        new waterparks.Views.ReviewsView({
+          collection: reviews,
+          template: '#reviews-template',
+          el: '.reviews-output'
+        });
+
+        new waterparks.Views.weatherView({
+          waterpark: waterpark,
+          template: '#weather-template',
+          el: '.weather-output'
+        }).render();
+
+        var dir = new waterparks.Views.DirectionsMapView({
+          waterpark: waterpark,
+          el: '.directions-map'
+        }).locateUser();
       });
 
-      var reviews = new waterparks.Collections.Reviews({
-        waterpark: waterpark,
-        node: '.reviews-output'
-      });
-
-      new waterparks.Views.ReviewsView({
-        collection: reviews,
-        template: '#reviews-template',
-        el: '.reviews-output'
-      });
-
-      new waterparks.Views.weatherView({
-        waterpark: waterpark,
-        template: '#weather-template',
-        el: '.weather-output'
-      }).render();
-
-      var dir = new waterparks.Views.DirectionsMapView({
-        waterpark: waterpark,
-        el: '.directions-map'
-      }).locateUser();
     </script>
 
   </body>

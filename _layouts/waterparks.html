@@ -20,24 +20,26 @@
     {% include footer.html %}
 
     <script type="text/javascript">
-      var waterparkData = [
-        {% for waterpark in site.water-parks %}
-          {% if (waterpark.lat && waterpark.lng) %}
-            {
-              "lat": {{ waterpark.lat }},
-              "lng": {{ waterpark.lng }},
-              "url": "{{waterpark.url}}",
-              "name": "{{waterpark.title}}"
-            },
-          {% endif %}
-        {% endfor %}
-      ];
+      $(function() {
+        var waterparkData = [
+          {% for waterpark in site.water-parks %}
+            {% if (waterpark.lat && waterpark.lng) %}
+              {
+                "lat": {{ waterpark.lat }},
+                "lng": {{ waterpark.lng }},
+                "url": "{{waterpark.url}}",
+                "name": "{{waterpark.title}}"
+              },
+            {% endif %}
+          {% endfor %}
+        ];
 
-      var waterparkCollection = new waterparks.Collections.WaterParks(waterparkData);
-      var mapView = new waterparks.Views.BigMapView({
-        el: '.big-map',
-        collection: waterparkCollection
-      }).render();
+        var waterparkCollection = new waterparks.Collections.WaterParks(waterparkData);
+        var mapView = new waterparks.Views.BigMapView({
+          el: '.big-map',
+          collection: waterparkCollection
+        }).render();
+      });
     </script>
 
   </body>

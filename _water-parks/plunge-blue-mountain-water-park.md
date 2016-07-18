@@ -44,3 +44,7 @@ Rates are subject to applicable taxes. Rates are per person.
 
 *Seasons passes are available
 
+#### Additional Activities
+•	swimming lessons
+•	water fitness
+

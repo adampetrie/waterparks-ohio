@@ -1,6 +1,11 @@
 ---
 title: Waves Indoor Water Park
-address: 8444 Lundy’s Lane Niagara Falls L2H 1H4
+
+lat: 43.087769
+lng: -79.13921449999999
+place_id: ChIJJ82_bfFE04kRNIeuiOuQ-94
+
+
 image_path: images/waves-indoor
 imae_source: Images courtesy of http://www.americananiagara.com/.
 ---

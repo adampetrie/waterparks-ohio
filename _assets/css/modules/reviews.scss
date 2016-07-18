@@ -1,0 +1,48 @@
+.review {
+  margin-bottom: 40px;
+
+  .glyphicon {
+    font-size: 20px;
+    padding: 0 2px;
+  }
+
+  .glyphicon-star {
+    color: $theme-yellow;
+  }
+
+  .glyphicon-star-empty {
+    color: #CCCCCC;
+  }
+
+  .date {
+    color: #CCCCCC;
+    font-size: 12px;
+  }
+
+  .info {
+    text-align: center;
+
+    .avatar {
+      border: 1px solid #CCCCCC;
+      border-radius: 50%;
+      color: white;
+      display: inline-block;
+      font-size: 34px;
+      font-weight: bold;
+      height: 50px;
+      line-height: 46px;
+      margin-bottom: 10px;
+      text-align: center;
+      width: 50px;
+    }
+
+    span.avatar {
+      background-color: $theme-blue;
+    }
+
+    p {
+      font-weight: bold;
+      font-size: 12px;
+    }
+  }
+}

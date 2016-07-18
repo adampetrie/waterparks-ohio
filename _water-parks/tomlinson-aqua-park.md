@@ -1,6 +1,9 @@
 ---
 title: Tomlinson Aqua Park
-address: 303 York St, Kingston,ON, K7K 1R8
+
+lat: 44.2393619
+lng: -76.49992379999999
+place_id: ChIJ7eQMJ6Sr0kwRrHFI3-kBwcM
 ---
 
 Kingston's favourite waterpark offers a 10-metre water slide, a lazy river, toddler pool, family and accessible change rooms, shaded areas and zero-beach entry.

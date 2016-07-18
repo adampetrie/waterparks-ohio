@@ -17,23 +17,28 @@
       </div>
     </div>
 
+    {% include footer.html %}
+
     <script type="text/javascript">
-      var waterparks = [
+      var waterparkData = [
         {% for waterpark in site.water-parks %}
-          {% if (waterpark.address) %}
+          {% if (waterpark.lat && waterpark.lng) %}
             {
-              "address": "{{ waterpark.address }}",
-              "data": {
-                "url": "{{waterpark.url}}",
-                "name": "{{waterpark.title}}"
-              }
+              "lat": {{ waterpark.lat }},
+              "lng": {{ waterpark.lng }},
+              "url": "{{waterpark.url}}",
+              "name": "{{waterpark.title}}"
             },
           {% endif %}
         {% endfor %}
       ];
-    </script>
 
-    {% include footer.html %}
+      var waterparkCollection = new waterparks.Collections.WaterParks(waterparkData);
+      var mapView = new waterparks.Views.BigMapView({
+        el: '.big-map',
+        collection: waterparkCollection
+      }).render();
+    </script>
 
   </body>
 </html>

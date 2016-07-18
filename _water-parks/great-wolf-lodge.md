@@ -1,6 +1,10 @@
 ---
 title: Great Wolf Lodge
-address: 3950 Victoria Avenue Niagara Falls, ON L2E 7M8
+
+lat: 43.1163688
+lng: -79.070922
+place_id: ChIJTyCc-dJc04kRSwmC6PHcp8s
+
 image_path: images/great-wolf-lodge
 image_source: Images courtesy of www.greatwolf.com
 ---

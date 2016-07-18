@@ -1,0 +1,31 @@
+<h3>
+  <span class="icon fa fa-star-o"></span>
+  Ratings and Reviews
+  <div class="key-line"></div>  
+</h3>
+
+<div id="reviews" class="reviews-output">
+  <div class="loading" >
+    <span class="fa fa-spinner fa-spin"></span>
+    <p>Loading reviews for {{ page.title }}.<br/>Please Wait...</p>
+  </div>
+</div>
+
+<script type="text/template" id="reviews-template">
+    <% _.each(reviews, function(review){ %>
+      <div class="row review">
+        <div class="col-md-2 info">
+          <div>
+            <%= review.authorImage() %>
+          </div>
+          <p><%= review.get('author') %></p>
+        </div>
+        <div class="col-md-10">
+          <div><%= review.rating() %></div>
+          <p class="date"><%= review.date() %></p>
+          <p><%= review.get('text') %></p>
+        </div>
+      </div>
+    <% }); %>
+    <img class="pull-right" src="/public/assets/images/powered_by_google.png" width="144" height="18"/>
+</script>

@@ -16,13 +16,15 @@
     <p>Currently <%= temp %>&deg;<%= units.temp %> and <%= currently %> in <%= city %>, <%= region %></p>
     <i class="wi wi-yahoo-<%= code %>" aria-hidden="true"></i>
   </div>
-  <ul class="forecast list-inline">
-  <% _.each(forecast, function(forecast){ %>
-    <li>
-      <p><%= forecast.day %></p>
-      <i class="wi wi-yahoo-<%= forecast.code %>" title="<%= forecast.text %>"></i>
-      <p><%= forecast.high%>&deg; / <%= forecast.low%>&deg;</p>
-    </li>
-  <% }); %>
-  </ul>
+  <div class="forecast">
+    <ul class="list-inline">
+    <% _.each(forecast, function(forecast){ %>
+      <li>
+        <p><%= forecast.day %></p>
+        <i class="wi wi-yahoo-<%= forecast.code %>" title="<%= forecast.text %>"></i>
+        <p><%= forecast.high%>&deg; / <%= forecast.low%>&deg;</p>
+      </li>
+    <% }); %>
+    </ul>
+  </div>
 </script>

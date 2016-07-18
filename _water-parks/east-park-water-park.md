@@ -1,7 +1,10 @@
 ---
 title: East Park Water Park
 slug: east-park-water-park
-address: 1275 Hamilton Road London, ON N5W 1B1
+
+lat: 42.9717892
+lng: -81.1663465
+place_id: ChIJA8CXsrfyLogR40VEDlaBiGU
 ---
 
 #### Hours of Operation

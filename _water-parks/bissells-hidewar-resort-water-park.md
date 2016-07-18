@@ -1,7 +1,10 @@
 ---
 title: Bissell’s Hideway Resort Water Park 
 slug: bissells-hideway-resort-water-park
-address: 205 Metler Road, R.R. #1 Ridgeville, ON L0S 1M0
+
+lat: 43.0622304
+lng: -79.3039249
+place_id: ChIJAa_6-whM04kRRnwyHBPlMwo
 ---
 
 Located in the Niagara area, Bissell’s Hideway features a giant pool and boardwalk, 130ft twister water slide, and a kiddie splash pad.

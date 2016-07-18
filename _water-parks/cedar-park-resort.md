@@ -1,8 +1,8 @@
 ---
 title: Cedar Park Resort
 
-lat: 43.9038027
-lng: -78.6788217
+lat: 43.9907347
+lng: -78.73742109999999
 place_id: ChIJmfdDIQMG1YkRv_vqt1tf-Ic
 ---
 

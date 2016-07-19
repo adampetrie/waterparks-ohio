@@ -1,5 +1,6 @@
 # Site Settings...
 title: 'Water Parks in Ontario'
+domain: 'http://www.waterparksinontario.ca'
 
 offline: false
 
@@ -44,6 +45,3 @@ exclude:
   - s3_website.yml
   - node_modules
   - bower_components
-
-gems:
-  - jekyll-sitemap

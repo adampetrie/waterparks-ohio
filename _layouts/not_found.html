@@ -1,0 +1,41 @@
+{% include html-head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="container">
+      <div class="row">
+        {{ content | markdownify }}
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <ul>
+            {% for waterpark in site.water-parks limit: 9 %}
+              <li>
+                <a href='{{ waterpark.url }}'>
+                  {{ waterpark.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul>
+            {% for waterpark in site.water-parks offset: 9 %}
+              <li>
+                <a href='{{ waterpark.url }}'>
+                  {{ waterpark.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+</html>

@@ -1,6 +1,6 @@
 ---
 title: Plunge Blue Mountain Water Park
-description: Water park in Blue Mountain Ontario
+description: Water park in Blue Mountain Ontario. Plunge is a water park that was inspired by the tradition of cottage-style boathouses.
 slug: plunge-blue-mountain-water-park
 
 lat: 44.5016579

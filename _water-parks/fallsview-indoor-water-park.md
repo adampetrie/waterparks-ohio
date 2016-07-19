@@ -1,6 +1,6 @@
 ---
 title: Fallsview Indoor Water Park
-description: Water park in Niagara Falls Ontario
+description: Water park in Niagara Falls Ontario. Fallsview Indoor Water Park is Niagara’s largest indoor water park.
 slug: fallsview-indoor-water-park
 
 lat: 43.0964234

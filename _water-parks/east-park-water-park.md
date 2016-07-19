@@ -1,6 +1,6 @@
 ---
 title: East Park Water Park
-description: Water park in London Ontario
+description: Water park in London Ontario. East Park is home to the biggest and best waterpark for miles around!
 slug: east-park-water-park
 
 lat: 42.9717892

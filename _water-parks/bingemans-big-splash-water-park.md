@@ -1,6 +1,6 @@
 ---
 title: Bingeman's Big Splash Water Park
-description: Water park in Kitchener Ontario
+description: Water park in Kitchener Ontario. Bingeman’s Big Splash offers fun and excitement for all ages.
 slug: bingemans-big-splash-water-park
 
 lat: 43.4724291

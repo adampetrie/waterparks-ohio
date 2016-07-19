@@ -1,6 +1,6 @@
 ---
 title: Bissell’s Hideway Resort Water Park 
-description: Water park near Niagara Falls Ontario
+description: Water park near Niagara Falls Ontario. Bissell’s Hideway features a giant pool and boardwalk, 130ft twister water slide, and a kiddie splash pad.
 slug: bissells-hideway-resort-water-park
 
 lat: 43.0622304

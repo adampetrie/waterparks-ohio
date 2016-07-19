@@ -1,6 +1,6 @@
 ---
 title: Lake Lisgar Water Park
-description: Water park in Tillsonburg Ontario
+description: Water park in Tillsonburg Ontario. Lake Lisgar Water Park is owned and operated by the Town of Tillsonburg.
 slug: lake-lisgar-water-park
 
 lat: 42.86838909999999

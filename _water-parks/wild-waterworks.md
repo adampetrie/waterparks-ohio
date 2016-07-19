@@ -1,6 +1,6 @@
 ---
 title: Wild Waterworks
-description: Water park in Hamilton Ontario
+description: Water park in Hamilton Ontario. Wild Waterworks water park offers a perfect place to spend a summer day.
 slug: wild-waterworks
 
 lat: 43.2522212

@@ -1,6 +1,6 @@
 ---
 title: Great Wolf Lodge
-description: Water park in Niagara Falls Ontario
+description: Water park in Niagara Falls Ontario. Great Wolf Lodge is designed for family togetherness and built for maximum fun.
 slug: great-wolf-lodge
 
 lat: 43.1163688

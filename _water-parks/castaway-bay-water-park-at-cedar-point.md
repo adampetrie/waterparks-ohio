@@ -2,7 +2,13 @@
 title: Castaway Bay Water Park at Cedar Point
 description: Indoor water park in Sandusky Ohio.  Vaction year round at Cendar Point's Castaway Bay!
 slug: castaway-bay-water-park-at-cedar-point
-address: 2001 Cleveland Road Sandusky, Ohio 44870
+
+lat: 41.4418963
+lng: -82.67739159999999
+place_id: ChIJ5RJKrptGOogRwfcIIgaZLxY
+
+image_path: images/castaway-bay-water-park-at-cedar-point
+image_source: Images courtesy of booking.com
 ---
 
 Vacation year round at Cedar Point’s Castaway Bay.  Highlights of this indoor waterpark resort include a 35 foot high, 520 foot long water roller coaster, indoor/outdoor covered body slides and the Lookout Lagoon Family Funhouse – an enormous, multi-story play area with more than 100 different elements including a 1,000 gallon tipping bucket!  Castaway Bay also features a 100,000 gallon wave pool with 3 foot tall waves that are large enough to body surf as well as indoor/outdoor hot tubs.   
@@ -16,7 +22,7 @@ Operating hours vary, please visit their [website calendar here](http://www.cast
 Sandusky, Ohio 44870 
  
 #### Contact 
-[www.castawaybay.com](http://www.castawaybay.com/)
+[www.castawaybay.com](http://www.castawaybay.com/)  
 (419) 627-2106 
  
 #### Admissions 

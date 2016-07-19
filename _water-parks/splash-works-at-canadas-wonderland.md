@@ -4,6 +4,9 @@ title: Splash Works at Canada's Wonderland
 lat: 43.84295720000001
 lng: -79.53521309999999
 place_id: ChIJo6Z2D0wvK4gRhnsQHYGXImc
+
+image_path: images/splash-works-canadas-wonderland
+image_source: Images courtesy of Google.
 ---
 
 Splash Works is a 20-acre water park located within the park boundaries of Canada’s Wonderland in Vaughan. Splash Works features 16 water slides, a quarter mile lazy river, wave pool, interactive tube slides, multi-racer slides, and The Plunge which takes a three-seater rafter over 50-feet of free-fall plunges!

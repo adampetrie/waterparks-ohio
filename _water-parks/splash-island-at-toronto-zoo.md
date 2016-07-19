@@ -4,6 +4,9 @@ title: Splash Island at Toronto Zoo
 lat: 43.8249775
 lng: -79.18538789999999
 place_id: ChIJwZ840e3Z1IkRpSAUGz5FbHo
+
+image_path: images/splash-island-toronto-zoo
+image_source: Images courtesy of Google.
 ---
 
 Splash Island at Toronto Zoo is two acres of water park fun. Not only is Splash Island tons of fun it’s also educational and aims to teach children about plants and animals that live in different bodies of water in Canada as well as the water cycle. 

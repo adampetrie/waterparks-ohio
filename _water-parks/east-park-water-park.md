@@ -5,6 +5,9 @@ slug: east-park-water-park
 lat: 42.9717892
 lng: -81.1663465
 place_id: ChIJA8CXsrfyLogR40VEDlaBiGU
+
+image_path: images/east-park-water-park
+image_source: Images courtesy of www.eastparkgolf.com.
 ---
 
 #### Hours of Operation

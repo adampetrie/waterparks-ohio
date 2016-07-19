@@ -6,6 +6,9 @@ address: Gord Canning Drive Blue Mountains, ON L9Y 0V9
 lat: 44.5016579
 lng: -80.3103649
 place_id: ChIJHVr5KDx6KogRBMlCiWrc3tE
+
+image_path: images/plunge-blue-mountain
+image_source: Images courtesy of www.plungebluemountain.ca.
 ---
 
 Located in the Blue Mountain Village, Plunge is a water park that was inspired by the tradition of cottage-style boathouses.  Featuring indoor and outdoor pools, an indoor water playground, hot tubs, a rope swing, and dock and water slides, there is fun for the whole family!   

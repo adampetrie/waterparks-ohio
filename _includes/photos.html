@@ -6,13 +6,15 @@
 
 <div class="row">
 {% if include.path %}
-  {% for image in site.static_files %}
-    {% if image.path contains {{include.path}} %}
-      <a class="col-xs-12 col-sm-4 col-md-4 thumb" data-lightbox="gallery" href="{{ image.path }}">
-        <img class="img-responsive img-thumbnail" src="{{ site.baseurl }}{{ image.path }}" alt="image"/>
-      </a>
-    {% endif %}
-  {% endfor %}
+  <div class="clearfix">
+    {% for image in site.static_files %}
+      {% if image.path contains {{include.path}} %}
+        <a class="col-xs-12 col-sm-4 col-md-4 thumb" data-lightbox="gallery" href="{{ image.path }}">
+          <img class="img-responsive img-thumbnail" src="{{ site.baseurl }}{{ image.path }}" alt="{{ page.title }}" title="{{ page.title }}"/>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
   <p class="pull-right disclaimer">{{include.source}}</p>
 {% else %}
   <div class="no-photos text-center">

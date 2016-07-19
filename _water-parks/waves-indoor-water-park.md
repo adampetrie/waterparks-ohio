@@ -1,5 +1,7 @@
 ---
 title: Waves Indoor Water Park
+description: Water park in Niagara Falls Ontario
+slug: waves-indoor-water-park
 
 lat: 43.087769
 lng: -79.13921449999999

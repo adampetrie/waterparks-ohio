@@ -1,5 +1,7 @@
 ---
-title: Roaring Rivers Water Park at Logos Land Resort 
+title: Roaring Rivers Water Park at Logos Land Resort
+description: Water park near Ottawa Ontario
+slug: roaring-rivers-water-park-at-logos-land-resort
 
 lat: 45.5994788
 lng: -76.84414919999999

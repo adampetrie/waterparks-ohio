@@ -1,5 +1,7 @@
 ---
 title: Tomlinson Aqua Park
+description: Water park in Kingston Ontario
+slug: tomlinson-aqua-park
 
 lat: 44.2393619
 lng: -76.49992379999999

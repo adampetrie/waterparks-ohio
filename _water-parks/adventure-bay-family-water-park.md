@@ -1,5 +1,6 @@
 ---
 title: Adventure Bay Family Water Park
+description: Water park in Windsor Ontario
 slug: adventure-bay-family-water-park
 
 lat: 42.3172986

@@ -1,5 +1,6 @@
 ---
 title: Calypso Water Park
+description: Water park near Ottawa Ontario
 slug: calypso-water-park
 
 lat: 45.3146675

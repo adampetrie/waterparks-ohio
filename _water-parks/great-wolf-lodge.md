@@ -1,5 +1,7 @@
 ---
 title: Great Wolf Lodge
+description: Water park in Niagara Falls Ontario
+slug: great-wolf-lodge
 
 lat: 43.1163688
 lng: -79.070922

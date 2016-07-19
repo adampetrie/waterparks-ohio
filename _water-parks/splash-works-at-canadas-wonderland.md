@@ -1,5 +1,7 @@
 ---
 title: Splash Works at Canada's Wonderland
+description: Water park in Toronto Ontario
+slug: splash-works-at-canadas-wonderland
 
 lat: 43.84295720000001
 lng: -79.53521309999999

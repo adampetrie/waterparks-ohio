@@ -1,5 +1,7 @@
 ---
 title: Wild Waterworks
+description: Water park in Hamilton Ontario
+slug: wild-waterworks
 
 lat: 43.2522212
 lng: -79.7609866

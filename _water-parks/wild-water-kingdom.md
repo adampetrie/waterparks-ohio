@@ -1,5 +1,7 @@
 ---
 title: Wild Water Kingdom
+description: Water park in Brampton Ontario
+slug: wild-water-kingdom
 
 lat: 43.7403466
 lng: -79.64198379999999

@@ -1,7 +1,7 @@
 ---
 title: Lake Lisgar Water Park
+description: Water park in Tillsonburg Ontario
 slug: lake-lisgar-water-park
-address: 16 Ross Street Tillsonburg, ON N4G
 
 lat: 42.86838909999999
 lng: -80.7332411

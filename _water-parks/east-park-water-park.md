@@ -1,5 +1,6 @@
 ---
 title: East Park Water Park
+description: Water park in London Ontario
 slug: east-park-water-park
 
 lat: 42.9717892

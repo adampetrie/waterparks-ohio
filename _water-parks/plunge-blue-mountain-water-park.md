@@ -1,7 +1,7 @@
 ---
 title: Plunge Blue Mountain Water Park
+description: Water park in Blue Mountain Ontario
 slug: plunge-blue-mountain-water-park
-address: Gord Canning Drive Blue Mountains, ON L9Y 0V9
 
 lat: 44.5016579
 lng: -80.3103649

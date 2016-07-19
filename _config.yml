@@ -1,6 +1,8 @@
 # Site Settings...
 title: 'Water Parks in Ontario'
-domain: 'http://www.waterparksinontario.ca'
+description: 'Water Parks in Ontario is the most comprehensive website with the most up-to-date information on water parks in Ontario.'
+url: 'http://www.waterparksinontario.ca'
+google_site_verification: HzIj0S2-E0wk4abmcb7kIvQo-d_FBDI4j8eSupV18Ek
 
 offline: false
 
@@ -45,3 +47,6 @@ exclude:
   - s3_website.yml
   - node_modules
   - bower_components
+
+gems:
+  - jekyll-seo-tag

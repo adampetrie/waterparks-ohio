@@ -1,5 +1,6 @@
 ---
 title: Bissell’s Hideway Resort Water Park 
+description: Water park near Niagara Falls Ontario
 slug: bissells-hideway-resort-water-park
 
 lat: 43.0622304

@@ -1,5 +1,7 @@
 ---
 title: Splash Island at Toronto Zoo
+description: Water park in Toronto Ontario
+slug: splash-island-at-toronto-zoo
 
 lat: 43.8249775
 lng: -79.18538789999999

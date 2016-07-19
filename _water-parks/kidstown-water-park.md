@@ -1,7 +1,7 @@
 ---
 title: Kidstown Water Park
+description: Water park in Toronto Ontario
 slug: kidstown-water-park
-address: 3159 Birchmount Rd Scarborough, ON M1V 1S4
 
 lat: 43.807022
 lng: -79.30943429999999

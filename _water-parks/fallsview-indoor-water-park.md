@@ -1,5 +1,7 @@
 ---
 title: Fallsview Indoor Water Park
+description: Water park in Niagara Falls Ontario
+slug: fallsview-indoor-water-park
 
 lat: 43.0964234
 lng: -79.0771834

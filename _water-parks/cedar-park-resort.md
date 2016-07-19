@@ -1,5 +1,7 @@
 ---
 title: Cedar Park Resort
+description: Water park near Oshawa Ontario
+slug: cedar-park-resort
 
 lat: 43.9907347
 lng: -78.73742109999999

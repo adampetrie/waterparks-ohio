@@ -54,11 +54,19 @@ Waterpark admission included for resort guests.  A limited number of waterpark d
 Visit [Kalahari's online water park pass sales website here](https://shop.kalahariresorts.com/eStoreSan/Content/Commerce/Products/DisplayProducts.aspx?ThemeName=Sandusky&ClientID=510&ProductGroupCode=10008&ProductCategoryCode=11) to check availability and pricing and to purchase your passes.  
 
 #### Additional Activities
-- hotel rooms
-- Safari Adventures Animal Park 
+- 215,000 sq. ft. of meeting space for both large and small events 
 - arcade
-- cabana rentals 
-- convention centre
 - spa
+- fitness center
+- 9-hole mini golf
+- pottery painting
+- mini bowling
+- 5-D Theater/Ride
+- laser tag arena
+- Ropes Course- Sky Trail Explorer - Three level course featuring 48 elements spanning over 750 feet of thrilling African-themed ropes adventures
+- Zip Line Tour - Riders of all ages will experience 200-400 foot zip rides over 60ft in the air! 
+- Adventure Climbing Walls - Two 32 foot high custom climbing walls will feature auto belay safety systems and race timers
+- Safari Adventures Animal Park - Featuring up-close and educational animal encounters for all ages
+- hotel rooms
+- cabana rentals 
 - multiple restaurants 
-- fitness centre

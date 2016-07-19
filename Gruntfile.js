@@ -38,6 +38,13 @@ module.exports = function(grunt) {
           '_assets/js/*/*.js'
         ],
         dest: 'public/assets/js/main.min.js'
+      },
+      css: {
+        src: [
+          'bower_components/lightbox2/dist/css/lightbox.min.css',
+          'public/assets/css/style.css'
+        ],
+        dest: 'public/assets/css/style.css'
       }
     },
 
@@ -110,6 +117,6 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerTask('default', ['sass:dev', 'copy']);
   grunt.registerTask('serve', ['default', 'concat', 'exec:serve']);
-  grunt.registerTask('deploy', ['default', 'uglify', 'exec:deploy']);
+  grunt.registerTask('deploy', ['default', 'uglify', 'concat:css', 'exec:deploy']);
 
 };

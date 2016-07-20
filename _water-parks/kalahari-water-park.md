@@ -1,8 +1,14 @@
 ---
 title: Kalahari Indoor and Outdoor Water Park
-description: Indoor and outdoor water park located in Sandusky Ohio.  America's largest indoor water park, Kalahari features over 170,000 square feet of African-themed water park fun!  
+description: Indoor and outdoor water park located in Sandusky Ohio.  America's largest indoor water park, Kalahari features over 170,000 square feet of African-themed water park fun!
 slug: kalahari-water-park
-address: 7000 Kalahari Drive Sandusky, Ohio 44870 
+
+lat: 41.3832917
+lng: -82.6427278
+place_id: ChIJ-VPva8pAOogRlXIGo3w4CGs
+
+image_path: images/kalahari-water-park
+image_source: Images courtesy of www.kalahariresorts.com.
 ---
 
 America's largest indoor water park, Kalahari features over 170,000 square feet of African-themed water park fun!  Kalahari's attractions include a 12,000 sq. ft. wave pool, a thrilling 60' diameter bowl raft ride, Zip Coaster uphill water rollercoster, Cheetah Race 4 lane mat slides, raft rides, a 920 feet lazy river, or relax at the swim up bar.  Plus, learn how to body board or surf on one of two FlowRiders where 50,000 gallons of water flow under you ever minute creating a perfect five-foot wave.  

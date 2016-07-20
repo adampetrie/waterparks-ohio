@@ -2,7 +2,13 @@
 title: Wildwater Kingdom
 description: Water park located in Aurora, Ohio. From thrill-seekers to kids, you will find fun at Wildwater Kingdom for the entire family! 
 slug: wildwater-kingdom
-address: 1100 Squires Road, Aurora, Ohio 44202 
+
+lat: 41.3478256
+lng: -81.3695311
+place_id: ChIJWYTwN44ZMYgRJT97ypA3-Nw
+
+image_path: images/wild-water-kingdom
+image_source: Images courtesy of www.wildwaterfun.com.
 ---
 
 From thrill-seekers to kids, you will find fun at Wildwater Kingdom for the entire family! Thunder Falls is Ohio's tallest waterslide - after climbing the 100 foot tower you can choose to ride one of three enclosed body slides or four inner tube slides.  Wildwater Kingdom also features Liquid Lighting - a four person raft that plunges 60 feet down an enormous funnel, a 390,000 gallon wave pool and a 1,100 foot long lazy river.  The kids will love Splash Landing - a four story structure with water slides, soaking gadgets, geysers, water cannons and a giant bucket that tips over 1,000 gallons of water.   

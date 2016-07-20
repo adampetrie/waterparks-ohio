@@ -17,7 +17,7 @@ waterparks.Views.weatherView = Backbone.View.extend({
   render: function() {
     $.simpleWeather({
       location: this.location,
-      unit: 'c',
+      unit: 'f',
       success: _.bind(this.outputWeather, this),
       error: _.bind(this.outputError, this)
     });

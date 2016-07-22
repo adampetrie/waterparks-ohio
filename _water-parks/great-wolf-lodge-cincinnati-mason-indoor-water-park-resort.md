@@ -5,7 +5,7 @@ description: Great Wolf Lodge in Cincinnati / Mason, Ohio was designed for maxim
 excerpt:
 
 location:
-  city: Near Cincinnati, Ohio
+  city: Mason, Ohio
   lat: 39.3503727
   lng: -84.26407929999999
   place_id: ChIJP6Rcy_v3QIgRybzj7tte_RA

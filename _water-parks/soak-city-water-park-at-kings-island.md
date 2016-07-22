@@ -1,11 +1,21 @@
 ---
-title: 
+title: Soak City at Kings Island
+slug: soak-city-at-kings-island
 description:
-slug:
-address: 6300 Kings Island Drive Kings Island Ohio 45034  
+excerpt:
+
+location:
+  city: Mason, Ohio
+  lat: 39.3401263
+  lng: -84.27312789999999
+  place_id: ChIJEXbBQ_xXQIgRDAbNmDVWOKw
+
+images:
+  path:
+  credit:
 ---
 
-Soak City and Kings Island is  the largest amusement and water park in the midwest.  Soak City alone features over 50 water activities including 36 water slides, tropical lagoons, lazy rivers, surfable waves, and a 650,000 gallong wave pool.  Soak City is included with Park admission to Kings landing.  
+Soak City and Kings Island is the largest amusement and water park in the midwest.  Soak City alone features over 50 water activities including 36 water slides, tropical lagoons, lazy rivers, surfable waves, and a 650,000 gallong wave pool.  Soak City is included with Park admission to Kings landing.  
 
 #### Hours of Operation
 Soak City is open daily during the summer months.  

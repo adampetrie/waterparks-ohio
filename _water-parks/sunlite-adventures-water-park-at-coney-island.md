@@ -1,8 +1,18 @@
 ---
 title: Sunlite Adventures Water Park at Coney Island
-description: Sunlite Adventures Water Park at Coney Island is more than just the classic pool guests have been enjoying since 1945.  They have  4 water slides, 8 shoots and the new Typhoon Tower
 slug: sunlite-adventures-water-park-at-coney-island
-address: 6201 Kellogg Avenue Cincinnati, OH 45230
+description: Sunlite Adventures Water Park at Coney Island is more than just the classic pool guests have been enjoying since 1945.  They have  4 water slides, 8 shoots and the new Typhoon Tower
+excerpt:
+
+location:
+  city: Cincinnati, Ohio
+  lat: 39.05463400000001
+  lng: -84.4186598
+  place_id: ChIJm-dMvsuvQYgR3RiDov2wfDw
+
+images:
+  path:
+  credit:
 ---
 
 Sunlite Adventures water park at Coney Island is more than just the classic pool guests have been enjoying since 1945.  They have  4 water slides, 8 shoots and the new Typhoon Tower a giant, interactive water play structure that covers 16,000 square feet. Typhoon Tower features two 130-foot waterslides, over 70 interactive water play stations, and a 33-foot tall Hydro Storm - the largest in the world! - that will soak visitors with more than 1,300 gallons of  water!

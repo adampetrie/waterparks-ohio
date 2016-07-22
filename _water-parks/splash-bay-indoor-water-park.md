@@ -1,8 +1,18 @@
 ---
-title: Splash Bay Indoor Water Park 
-description: Splash Bay in an indoor water park located in Maumee, Ohio featuring 35,000 square feet of fun and adventure!
+title: Splash Bay Indoor Water Park
 slug: splash-bay-indoor-water-park
-address: 1705 Toll Gate Drive, Maumee, Ohio 43537
+description: Splash Bay in an indoor water park located in Maumee, Ohio featuring 35,000 square feet of fun and adventure!
+excerpt:
+
+location:
+  city: Maumee, Ohio
+  lat: 41.5891788
+  lng: -83.6666051
+  place_id: ChIJk-pRSv15PIgRie8ulhkWP7c
+
+images:
+  path:
+  credit:
 ---
 
 Splash Bay Indoor Water Park is 35,000 square feet of fun and adventure!  Featuring 3 water slides, a lazy river, activity pool, and kiddie area with a 1,000 gallon dumping bucket, 2 slides and a one foot catching pool, it is a perfect family vacation destination any day of the year.   

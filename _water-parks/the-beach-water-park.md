@@ -1,14 +1,18 @@
 ---
 title: The Beach 
-description: water park in Mason Ohio.  Over 45 water slides including the Cliff - rated one of the best water slides in the country where you drop 5 stories in 3 seconds! 
 slug: the-beach-water-park
+description: water park in Mason Ohio.  Over 45 water slides including the Cliff - rated one of the best water slides in the country where you drop 5 stories in 3 seconds!
+excerpt:
 
-lat: 39.3616699
-lng: -84.262604
-place_id: ChIJy3j2jub3QIgRkwZIMKc5toI
+location:
+  city: Mason, Ohio
+  lat: 39.3616699
+  lng: -84.262604
+  place_id: ChIJy3j2jub3QIgRkwZIMKc5toI
 
-image_path: images/the-beach-water-park
-image_source: Images courtesy of thebeachwaterpark.com.
+images:
+  path: images/the-beach-water-park
+  credit: Images courtesy of thebeachwaterpark.com.
 ---
 
 Come to the Beach! With over 45 water slides including a 4 lane racing slide, a 500-foot Big Kahuna water slide, a 1,000 foot super slide and the Cliff – rated one of the best water slides in the country where you will drop 5 stories in 3 seconds!  The younger kids will enjoy the Big Creek Beach that includes a 600-gallon dump bucket, water cannons, and 3 slides. Additional highlights include a wave pool, zip line and indoor arcade. 

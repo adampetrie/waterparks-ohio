@@ -1,8 +1,18 @@
 ---
 title: Great Wolf Lodge Cincinnati / Mason, Ohio Indoor Water Park Resort
+slug: great-wolf-lodge-cincinnati-mason-indoor-water-park-resort
 description: Great Wolf Lodge in Cincinnati / Mason, Ohio was designed for maximum fun and family entertainment.  
-slug: Great-Wolf-Lodge-Cincinnati-Mason-Ohio-Indoor-Water-Park-Resort
-address: 2501 Great Wolf Drive Mason, OH 45040
+excerpt:
+
+location:
+  city: Near Cincinnati, Ohio
+  lat: 39.3503727
+  lng: -84.26407929999999
+  place_id: ChIJP6Rcy_v3QIgRybzj7tte_RA
+
+images:
+  path:
+  credit:
 ---
 
 Great Wolf Lodge in Southern Ohio was designed for maximum fun and family togetherness.  This multi-award winning water park boasts over 80,000 square feet of water and land adventure that includes the Alberta Falls water slide, Hydro Plunge water coaster, zero-depth wave pool, and relaxing lazy river.  Create unforgettable memories with your entire family at Great Wolf Lodge.   

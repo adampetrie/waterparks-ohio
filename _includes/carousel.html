@@ -1,0 +1,10 @@
+<div class="slick-carousel">
+  {% for slide in include.carousel %}
+    <div class="slide clearfix" style="background-image: url('{{page.asset_path }}{{ slide.image }}');">
+      <div class="park-info">
+        <h6>{{ slide.title }}</h6>
+        <p>{{ slide.credit }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>

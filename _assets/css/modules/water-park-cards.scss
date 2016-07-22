@@ -1,0 +1,26 @@
+.water-park-card {
+  .panel {
+    height: 150px;
+
+    &:hover {
+      border-color: #23527c;
+    }
+  }
+
+  a {
+    color: #303030;
+    cursor: pointer;
+  }
+
+  .fa-picture-o {
+    font-size: 120px;
+  }
+
+  p {
+    margin-top: 10px;
+  }
+
+  span {
+    font-size: 12px;
+  }
+}

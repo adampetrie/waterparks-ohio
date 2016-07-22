@@ -12,6 +12,7 @@ $theme-yellow: #FFCD00;
 @import 'modules/map';
 @import 'modules/photos';
 @import 'modules/reviews';
+@import 'modules/water-park-cards';
 
 body {
   background-color: white;
@@ -75,13 +76,48 @@ h6 {
 }
 
 .jumbotron {
-  background: url('../images/jumbotron.jpg') no-repeat center center scroll;
-  background-size: cover;
   color: white;
   height: 500px;
   margin-bottom: 0;
   padding: 0;
+  position: relative;
   text-align: center;
+
+  .slick-carousel {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+  .slick-list,
+  .slick-track,
+  .slick-track > div {
+    height: 100%;
+    width: 100%;
+  }
+
+  .slick-track > div {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .park-info {
+    bottom: 10px;
+    position: absolute;
+    right: 10px;
+    text-align: right;
+
+    h6 {
+      font-size: 18px;
+      margin-bottom: 3px;
+    }
+
+    p {
+      font-size: 12px;
+      font-style: italic;
+      margin-bottom: 0;
+    }
+  }
 
   .col-md-5 {
     background-color: rgba(0, 0, 0, 0.7);

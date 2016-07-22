@@ -1,0 +1,24 @@
+{% for waterpark in site.water-parks %}
+  <div class="col-md-6 water-park-card">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <a href="{{ waterpark.url }}" class="">
+          <div class="row">
+            <div class="col-sm-4">
+              {% if waterpark.images.thumb %}
+                <img class="img-thumbnail" src="{{page.asset_path}}{{waterpark.images.path}}/{{ waterpark.images.thumb }}" alt="{{ waterpark.title }}"/>
+              {% else %}
+                <i class="fa fa-picture-o" aria-hidden="true"></i>
+              {% endif %}
+            </div>
+            <div class="col-sm-8 clearfix">
+              <h4>{{ waterpark.title }}</h4>
+              <p>{{ waterpark.excerpt }}</p>
+              <span class="pull-right">{{ waterpark.location.city }}</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+{% endfor %}

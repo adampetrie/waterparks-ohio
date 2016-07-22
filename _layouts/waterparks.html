@@ -17,16 +17,27 @@
       </div>
     </div>
 
+    <div class="container">
+      <h2>
+        <span class="icon fa fa-life-saver"></span>
+        Water Park Listings
+        <div class="key-line"></div>
+      </h2>
+      <div class="row">
+        {% include water-park-cards.html %}
+      </div>
+    </div>
+
     {% include footer.html %}
 
     <script type="text/javascript">
       $(function() {
         var waterparkData = [
           {% for waterpark in site.water-parks %}
-            {% if (waterpark.lat && waterpark.lng) %}
+            {% if (waterpark.location.lat && waterpark.location.lng) %}
               {
-                "lat": {{ waterpark.lat }},
-                "lng": {{ waterpark.lng }},
+                "lat": {{ waterpark.location.lat }},
+                "lng": {{ waterpark.location.lng }},
                 "url": "{{waterpark.url}}",
                 "name": "{{waterpark.title}}"
               },

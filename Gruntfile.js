@@ -4,7 +4,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-concurrent');
   grunt.loadNpmTasks('grunt-exec');
 
   grunt.initConfig({
@@ -29,6 +31,8 @@ module.exports = function(grunt) {
         src: [
           'bower_components/jquery/dist/jquery.min.js',
           'bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js',
+          'bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js',
+          'bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js',
           'bower_components/lightbox2/dist/js/lightbox.min.js',
           'bower_components/slick-carousel/slick/slick.min.js',
           'bower_components/simpleWeather/jquery.simpleWeather.min.js',
@@ -76,14 +80,8 @@ module.exports = function(grunt) {
       images: {
         files: [{
           expand: true,
-          cwd: '_assets/images',
-          src: ['**'],
-          dest: 'public/assets/images/'
-        },
-        {
-          expand: true,
           cwd: 'bower_components/lightbox2/dist/images',
-          src: ['**'],
+          src: ['**/*'],
           dest: 'public/assets/images/'
         }]
       }
@@ -108,24 +106,52 @@ module.exports = function(grunt) {
       }
     },
 
+    imagemin: {
+      jpg: {
+        files: [{
+          expand: true,
+          cwd: '_assets/images',
+          src: ['**/*.jpg'],
+          dest: 'public/assets/images/'
+        }]
+      }
+    },
+
     watch: {
-      files: ['_assets/js/**/*.js'],
-      tasks: ['concat'],
+      javascript: {
+        files: ['_assets/js/**/*.js'],
+        tasks: ['concat:javascript']
+      },
+      css: {
+        files: ['_assets/css/**/*.scss'],
+        tasks: ['build_css']
+      },
+      images: {
+        files: ['_assets/images/**/*'],
+        copy: ['copy:images']
+      }
     },
 
     exec: {
       serve: {
-        cmd: 'jekyll serve --watch'
+        cmd: 'jekyll serve'
       },
       deploy: {
         cmd: 'JEKYLL_ENV=production jekyll build && s3_website push'
+      }
+    },
+
+    concurrent: {
+      serve: ['exec:serve', 'watch'],
+      options: {
+          logConcurrentOutput: true
       }
     }
   });
 
   // Default task(s).
-  grunt.registerTask('default', ['sass:dev', 'copy']);
-  grunt.registerTask('serve', ['default', 'concat', 'exec:serve']);
-  grunt.registerTask('deploy', ['default', 'uglify', 'concat:css', 'exec:deploy']);
+  grunt.registerTask('build_css', ['sass:dev', 'concat:css'])
+  grunt.registerTask('serve', ['sass:dev', 'copy', 'imagemin', 'concat', 'concurrent:serve']);
+  grunt.registerTask('deploy', ['sass:dev', 'copy', 'uglify', 'concat:css', 'exec:deploy']);
 
 };

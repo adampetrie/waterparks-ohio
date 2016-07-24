@@ -1,8 +1,7 @@
 $wi-path: "../fonts/weather-icons";
 $fa-font-path: "../fonts/font-awesome";
 
-$theme-blue: #00C0FF;
-$theme-yellow: #FFCD00;
+@import 'variables';
 
 @import 'bootstrap';
 @import 'weather-icons';
@@ -16,7 +15,7 @@ $theme-yellow: #FFCD00;
 
 body {
   background-color: white;
-  color: #303030;
+  color: $theme-primary-font-color;
   font-family: 'Lato', 'Arial';
   font-size: 16px;
   font-weight: 300;
@@ -34,7 +33,7 @@ h6 {
   font-family: 'Bubblegum Sans';
 
   .icon {
-    color: $theme-blue;
+    color: $theme-primary-color;
     margin-right: 10px;
   }
 
@@ -60,7 +59,7 @@ h6 {
 
 .navbar-brand {
   i {
-    color: $theme-yellow;
+    color: $theme-highlight-color;
     padding-right: 5px;
   }
 
@@ -69,7 +68,7 @@ h6 {
     font-family: 'Bubblegum Sans';
 
     &:hover {
-      color: #05ACE2;
+      color: $link-hover-color;
       text-decoration: none;
     }
   }
@@ -124,13 +123,13 @@ h6 {
     height: 500px;
 
     i {
-      color: $theme-yellow;
+      color: $theme-highlight-color;
       font-size: 125px;
       line-height: 190px;
     }
 
     .key-line {
-      box-shadow: 0 10px 0 $theme-blue;
+      box-shadow: 0 10px 0 $theme-primary-color;
       height: 10px;
       margin: 0 auto 10px;
       width: 255px;
@@ -183,7 +182,7 @@ h6 {
 
 .key-line {
   border-radius: 10px;
-  box-shadow: 0 10px 0 $theme-yellow;
+  box-shadow: 0 10px 0 $theme-highlight-color;
 }
 
 .loading {
@@ -204,7 +203,7 @@ h6 {
   padding-bottom: 20px;
 
   .heading {
-    color: #00C0FF;
+    color: $theme-primary-color;
     text-align: center;
   }
 
@@ -222,13 +221,13 @@ h6 {
   text-align: center;
 
   i {
-    color: $theme-yellow;
+    color: $theme-highlight-color;
     font-size: 125px;
     line-height: 190px;
   }
 
   .key-line {
-    box-shadow: 0 10px 0 $theme-blue;
+    box-shadow: 0 10px 0 $theme-primary-color;
     height: 10px;
     margin: 0 auto 35px;
     width: 255px;

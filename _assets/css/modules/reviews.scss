@@ -7,7 +7,7 @@
   }
 
   .glyphicon-star {
-    color: $theme-yellow;
+    color: $theme-highlight-color;
   }
 
   .glyphicon-star-empty {
@@ -37,7 +37,7 @@
     }
 
     span.avatar {
-      background-color: $theme-blue;
+      background-color: $theme-primary-color;
     }
 
     p {

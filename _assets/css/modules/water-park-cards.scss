@@ -1,14 +1,14 @@
 .water-park-card {
   .panel {
-    height: 150px;
+    min-height: 193px;
 
     &:hover {
-      border-color: #23527c;
+      border-color: $link-hover-color;
     }
   }
 
   a {
-    color: #303030;
+    color: $theme-primary-font-color;
     cursor: pointer;
   }
 

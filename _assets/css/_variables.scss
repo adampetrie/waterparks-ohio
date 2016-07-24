@@ -1,0 +1,36 @@
+$theme-primary-color:      #336699;
+$theme-primary-font-color: #303030;
+$theme-highlight-color:    #FF6600;
+
+$navbar-default-color:             #FFFFFF !default;
+$navbar-default-bg:                $theme-primary-color !default;
+$navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
+
+// Navbar links
+$navbar-default-link-color:                #FFFFFF !default;
+$navbar-default-link-hover-color:          #555 !default;
+$navbar-default-link-hover-bg:             darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-link-active-color:         #FFFFFF !default;
+$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
+
+// Navbar brand label
+$navbar-default-brand-color:               #FFFFFF !default;
+$navbar-default-brand-hover-color:         #05ACE2 !default;
+$navbar-default-brand-hover-bg:            transparent !default;
+
+// Navbar toggle
+$navbar-default-toggle-hover-bg:           #04BDFB !default;
+$navbar-default-toggle-icon-bar-bg:        #99E5FE !default;
+$navbar-default-toggle-border-color:       #04BDFB !default;
+
+// Forecast
+$large-forecast-icon: lighten($theme-primary-color, 40%);
+
+// Buttons
+$btn-info-bg:                    $theme-primary-color !default;
+$btn-info-border:                darken($btn-info-bg, 5%) !default;
+
+//** Global textual link color.
+$link-color:            darken($theme-primary-color, 15%) !default;
+//** Link hover color set via `darken()` function.
+$link-hover-color:      darken($link-color, 5%) !default;

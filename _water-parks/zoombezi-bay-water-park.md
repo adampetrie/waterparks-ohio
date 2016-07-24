@@ -2,7 +2,7 @@
 title: Zoombezi Bay Water Park
 slug: zoombezi-bay-water-park
 description:
-excerpt:
+excerpt: Zoombezi Bay is a 22 acre water park offering fun and excitement for the whole family.
 
 location:
   city: Powell, Ohio
@@ -11,8 +11,9 @@ location:
   place_id: ChIJZ-4Y6LLtOIgRaa4okJC1UIg
 
 images:
-  path:
-  credit:
+  path: images/zoombezi-bay-water-park
+  thumb: zoombezi-bay.jpg
+  credit: Images courtesy of Google.
 ---
 
 Located in central Ohio, Zoombezi Bay is a 22 acre water park offering fun and excitement for the whole family.  With over 17 water slides, a wave pool, an action river, an adults-only lazy river, private cabanas, and children’s interactive play structure with 100 water features, there is something for everyone!  Highlights include Python Plunge, a water coaster that will take you uphill in the first 10 seconds and then shoot into a 70-foot long landing pool, and Sound Surfer, a 512-foot, five-person raft ride with themed LED lights, speakers and music.  

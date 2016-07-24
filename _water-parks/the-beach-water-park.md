@@ -1,8 +1,8 @@
 ---
 title: The Beach 
 slug: the-beach-water-park
-description: water park in Mason Ohio.  Over 45 water slides including the Cliff - rated one of the best water slides in the country where you drop 5 stories in 3 seconds!
-excerpt:
+description: Water park in Mason Ohio.  Over 45 water slides including the Cliff - rated one of the best water slides in the country where you drop 5 stories in 3 seconds!
+excerpt: Come to the Beach!
 
 location:
   city: Mason, Ohio
@@ -12,6 +12,7 @@ location:
 
 images:
   path: images/the-beach-water-park
+  thumb: Riptide-Racer.jpg
   credit: Images courtesy of thebeachwaterpark.com.
 ---
 

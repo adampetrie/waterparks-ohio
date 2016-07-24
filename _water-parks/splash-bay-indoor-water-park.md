@@ -2,7 +2,7 @@
 title: Splash Bay Indoor Water Park
 slug: splash-bay-indoor-water-park
 description: Splash Bay in an indoor water park located in Maumee, Ohio featuring 35,000 square feet of fun and adventure!
-excerpt:
+excerpt: Splash Bay in an indoor water park located in Maumee, Ohio featuring 35,000 square feet of fun and adventure!
 
 location:
   city: Maumee, Ohio
@@ -11,8 +11,9 @@ location:
   place_id: ChIJk-pRSv15PIgRie8ulhkWP7c
 
 images:
-  path:
-  credit:
+  path: images/splash-bay-indoor-water-park
+  thumb: splash-bay-resort-water-park.jpg
+  credit: Images courtesy of Google.
 ---
 
 Splash Bay Indoor Water Park is 35,000 square feet of fun and adventure!  Featuring 3 water slides, a lazy river, activity pool, and kiddie area with a 1,000 gallon dumping bucket, 2 slides and a one foot catching pool, it is a perfect family vacation destination any day of the year.   

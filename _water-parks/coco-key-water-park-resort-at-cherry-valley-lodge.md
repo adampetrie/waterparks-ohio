@@ -1,7 +1,20 @@
 ---
 title: Coco Key Water Park Resort at Cherry Valley Lodge
-description: Indoor water park located in Newark Ohio.  Splash and play all year round in 84 degrees at Coco Key Water Park Resort’s 50,000-square-foot indoor playground! 
 slug: coco-key-water-park-resort-at-cherry-valley-lodge
+description: Indoor water park located in Newark Ohio.  Splash and play all year round in 84 degrees at Coco Key Water Park Resort’s 50,000-square-foot indoor playground!
+excerpt: Splash and play all year round in 84 degrees at Coco Key Water Park! Resort’s 50,000-square-foot indoor playground!
+
+location:
+  city: Newark, Ohio
+  lat: 40.0520874
+  lng: -82.4767791
+  place_id: ChIJ7cef3eIVOIgRuzteUIOXmRk
+
+images:
+  path: images/coco-key-water-park
+  thumb: River1.jpg
+  credit: Images courtesy of Google.
+
 address: 2299 Cherry Valley Road Newark, Ohio 43055
 ---
 

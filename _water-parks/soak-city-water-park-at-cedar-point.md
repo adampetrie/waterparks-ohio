@@ -2,7 +2,7 @@
 title: Soak City Water Park at Cedar Point
 slug: soak-city-water-park-at-cedar-point
 description: Soak City is a large outdoor water park adjacent to Cedar Point.  The water park features of 16 acres of water fun including 12 water slides, 5 pools and 4 kids areas.
-excerpt:
+excerpt: Soak City is a large outdoor water park adjacent to Cedar Point featuring over 16 acres of water fun!
 
 location:
   city: Sandusky, Ohio
@@ -11,8 +11,9 @@ location:
   place_id: ChIJZTWNAVZEOogR82UZ3-bVY6I
 
 images:
-  path:
-  credit:
+  path: images/soak-city-water-park-at-cedar-point
+  thumb: sc_wavemag.jpg
+  credit: Images courtesy of Google.
 ---
 
 Soak City is a large outdoor water park adjacent to Cedar Point featuring over 16 acres of water fun! Here you will find 12 water slides including the 76-foot-tall Zoom Flume where guests sit in a large family inner tube that slides down a chute featuring quick turns and unexpected dips, a 6 lane Mat Racer, and Eerie Falls a slide complex in total darkness! 

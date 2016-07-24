@@ -2,7 +2,7 @@
 title: Maui Sands Resort and Indoor Water Park
 slug: maui-sands-resort-and-indoor-water-park
 description: Indoor water park in Sandusky, Ohio.  Experience a Hawaiian-themed splash-tastic good time at the Maui Sands Resort and Indoor Water Park.
-excerpt:
+excerpt: Experience a Hawaiian-themed splash-tastic good time at the Maui Sands Resort and Indoor Water Park.
 
 location:
   city: Sandusky, Ohio
@@ -11,8 +11,9 @@ location:
   place_id: ChIJCTByUC9HOogRiA6e5_Ko89Q
 
 images:
-  path:
-  credit:
+  path: images/maui-sands-resort-and-indoor-water-park
+  thumb: maui-sands.jpg
+  credit: Images courtesy of Google.
 ---
 
 Experience a Hawaiian-themed splash-tastic good time at the Maui Sands Resort and Indoor Water Park.  Complete with an indoor tropical garden setting, this indoor water park features tube water slides, a lazy river, vortex pool, and the MakaMaka Treehouse - a wet and wild adventure that includes small dump buckets, water cannons, a climbing rope, plus three levels of water slides.  Smaller children will enjoy Pineapple Bay, a kiddie pool complete with a slide of their own!

@@ -2,7 +2,7 @@
 title: Kalahari Indoor and Outdoor Water Park
 slug: kalahari-water-park
 description: Indoor and outdoor water park located in Sandusky Ohio.  America's largest indoor water park, Kalahari features over 170,000 square feet of African-themed water park fun!
-excerpt:
+excerpt: America's largest indoor water park, Kalahari features over 170,000 square feet of African-themed water park fun!
 
 location:
   city: Sandusky, Ohio
@@ -12,6 +12,7 @@ location:
 
 images:
   path: images/kalahari-water-park
+  thumb: leopards-lair.jpeg
   credit: Images courtesy of www.kalahariresorts.com.
 ---
 

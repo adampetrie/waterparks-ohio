@@ -1,8 +1,8 @@
 ---
 title: Wildwater Kingdom
 slug: wildwater-kingdom
-description: Water park located in Aurora, Ohio. From thrill-seekers to kids, you will find fun at Wildwater Kingdom for the entire family! 
-excerpt:
+description: Water park located in Aurora, Ohio. From thrill-seekers to kids, you will find fun at Wildwater Kingdom for the entire family!
+excerpt: From thrill-seekers to kids, you will find fun at Wildwater Kingdom for the entire family!
 
 location:
   city: Aurora, Ohio
@@ -12,6 +12,7 @@ location:
 
 images:
   path: images/wild-water-kingdom
+  thumb: thunderfalls_exit.jpg
   credit: Images courtesy of www.wildwaterfun.com.
 ---
 

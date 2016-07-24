@@ -1,8 +1,8 @@
 ---
 title: Soak City at Kings Island
-slug: soak-city-at-kings-island
+slug: soak-city-water-park-at-kings-island
 description:
-excerpt:
+excerpt: Soak City and Kings Island is the largest amusement and water park in the midwest.
 
 location:
   city: Mason, Ohio
@@ -11,8 +11,9 @@ location:
   place_id: ChIJEXbBQ_xXQIgRDAbNmDVWOKw
 
 images:
-  path:
-  credit:
+  path: images/soak-city-at-kings-island
+  thumb: Tropical_Plunge.jpg
+  credit: Images courtesy of www.visitkingsisland.com.
 ---
 
 Soak City and Kings Island is the largest amusement and water park in the midwest.  Soak City alone features over 50 water activities including 36 water slides, tropical lagoons, lazy rivers, surfable waves, and a 650,000 gallong wave pool.  Soak City is included with Park admission to Kings landing.  

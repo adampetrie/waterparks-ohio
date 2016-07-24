@@ -2,7 +2,7 @@
 title: Great Wolf Lodge Sandusky, Ohio Indoor Water Park Resort
 slug: great-wolf-lodge-sandusky-ohio-indoor-water-park-resort
 description: Great Wolf Lodge Indoor Water Park Resort in Sandusky, Ohio. Your weatherproof family vacation starts here.  
-excerpt:
+excerpt: Even when it's snowing outside, families can create unforgetable memories in the always warm 84-degree indoor water park.
 
 location:
   city: Sandusky, Ohio
@@ -11,8 +11,9 @@ location:
   place_id: ChIJy9HAdd5GOogRAnrVRpM-Q_M
 
 images:
-  path:
-  credit:
+  path: images/great-wolf-lodge-sandusky
+  thumb: totem-towers-sandusky.jpg
+  credit: Images courtesy of www.greatwolf.com/sandusky.
 ---
 
 Great Wolf Lodge is a premier indoor water park located in Sandusky, Ohio.  Even when it's snowing outside, families can create unforgetable memories in the always warm 84-degree indoor water park.  Packed with water slides up to four stories high, multiple pools, a tree house, and lazy river, there is something for everyone at Great Wolf Lodge.  

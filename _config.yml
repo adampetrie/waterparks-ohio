@@ -2,7 +2,9 @@
 title: Water Parks in Ohio
 description: Water Parks in Ohio is your destination for information on water parks in the Buckeye State
 url: 'http://www.waterparksinohio.info'
-google_site_verification: 1JSaAWGncOj2ZKdXFxtnTNba2sHpe962iymWcpgVcLU
+google:site_verification: 1JSaAWGncOj2ZKdXFxtnTNba2sHpe962iymWcpgVcLU
+google_analytics:
+google_maps_api_key: AIzaSyD0mPE3stX3e8EAKm-rEZsRfeops9PxNkc
 
 offline: false
 
@@ -15,6 +17,7 @@ defaults:
     scope:
       path: ""
     values:
+      asset_path: /public/assets/
       disclaimer: >
         At Water Parks in Ohio we strive to keep our listings as up to date as possible but nobody's perfect.
         In the event of a disagreement between a water park and this website, the water park shall take precedence.

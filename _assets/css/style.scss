@@ -44,14 +44,7 @@ h6 {
   }
 }
 
-.navbar-inverse {
-  background-color: #40D0FF;
-  border-color: #05ACE2;
-
-  .navbar-nav > li > a {
-    color: white;
-  }
-
+.navbar-default {
   .navbar-collapse {
     overflow-y: scroll;
   }

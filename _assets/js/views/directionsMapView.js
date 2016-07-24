@@ -49,7 +49,8 @@ waterparks.Views.DirectionsMapView = Backbone.View.extend({
     var mapNode = this.$el[0];
     this.map = new google.maps.Map(mapNode, {
       zoom: 7,
-      center: this.userLocation
+      center: this.userLocation,
+      scrollwheel: false,
     });
 
     this.directionsDisplay.setMap(this.map);

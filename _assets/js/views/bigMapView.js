@@ -31,6 +31,7 @@ waterparks.Views.BigMapView = Backbone.View.extend({
       zoom: 7,
       // Center on Toronto
       center: {lat: 43.653226, lng: -79.3831843}
+      scrollwheel: false,
     });
 
     this.infoWindow = new google.maps.InfoWindow();
